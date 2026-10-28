@@ -1,0 +1,3076 @@
+{
+ "total": 341,
+ "domains": 30,
+ "owner": "gbtweilai-star",
+ "caps": [
+  {
+   "index": 1,
+   "name": "browser",
+   "domain": "automation",
+   "gated": false,
+   "repo": "gbt-browser",
+   "url": "https://github.com/gbtweilai-star/gbt-browser",
+   "atlas": "caps/automation/browser.md"
+  },
+  {
+   "index": 2,
+   "name": "n8n_wf",
+   "domain": "automation",
+   "gated": true,
+   "repo": "gbt-n8n-wf",
+   "url": "https://github.com/gbtweilai-star/gbt-n8n-wf",
+   "atlas": "caps/automation/n8n_wf.md"
+  },
+  {
+   "index": 3,
+   "name": "absorb_loop",
+   "domain": "brain",
+   "gated": false,
+   "repo": "gbt-absorb-loop",
+   "url": "https://github.com/gbtweilai-star/gbt-absorb-loop",
+   "atlas": "caps/brain/absorb_loop.md"
+  },
+  {
+   "index": 4,
+   "name": "dream_replay",
+   "domain": "brain",
+   "gated": false,
+   "repo": "gbt-dream-replay",
+   "url": "https://github.com/gbtweilai-star/gbt-dream-replay",
+   "atlas": "caps/brain/dream_replay.md"
+  },
+  {
+   "index": 5,
+   "name": "collab_gateway",
+   "domain": "collab",
+   "gated": true,
+   "repo": "gbt-collab-gateway",
+   "url": "https://github.com/gbtweilai-star/gbt-collab-gateway",
+   "atlas": "caps/collab/collab_gateway.md"
+  },
+  {
+   "index": 6,
+   "name": "stigmergy",
+   "domain": "collab",
+   "gated": false,
+   "repo": "gbt-stigmergy",
+   "url": "https://github.com/gbtweilai-star/gbt-stigmergy",
+   "atlas": "caps/collab/stigmergy.md"
+  },
+  {
+   "index": 7,
+   "name": "coze_mail",
+   "domain": "comms",
+   "gated": false,
+   "repo": "gbt-coze-mail",
+   "url": "https://github.com/gbtweilai-star/gbt-coze-mail",
+   "atlas": "caps/comms/coze_mail.md"
+  },
+  {
+   "index": 8,
+   "name": "anatomy_figures",
+   "domain": "creation",
+   "gated": true,
+   "repo": "gbt-anatomy-figures",
+   "url": "https://github.com/gbtweilai-star/gbt-anatomy-figures",
+   "atlas": "caps/creation/anatomy_figures.md"
+  },
+  {
+   "index": 9,
+   "name": "anim_audit",
+   "domain": "creation",
+   "gated": false,
+   "repo": "gbt-anim-audit",
+   "url": "https://github.com/gbtweilai-star/gbt-anim-audit",
+   "atlas": "caps/creation/anim_audit.md"
+  },
+  {
+   "index": 10,
+   "name": "anim_fix",
+   "domain": "creation",
+   "gated": true,
+   "repo": "gbt-anim-fix",
+   "url": "https://github.com/gbtweilai-star/gbt-anim-fix",
+   "atlas": "caps/creation/anim_fix.md"
+  },
+  {
+   "index": 11,
+   "name": "art_brief",
+   "domain": "creation",
+   "gated": true,
+   "repo": "gbt-art-brief",
+   "url": "https://github.com/gbtweilai-star/gbt-art-brief",
+   "atlas": "caps/creation/art_brief.md"
+  },
+  {
+   "index": 12,
+   "name": "art_chain",
+   "domain": "creation",
+   "gated": true,
+   "repo": "gbt-art-chain",
+   "url": "https://github.com/gbtweilai-star/gbt-art-chain",
+   "atlas": "caps/creation/art_chain.md"
+  },
+  {
+   "index": 13,
+   "name": "bits_kit",
+   "domain": "creation",
+   "gated": false,
+   "repo": "gbt-bits-kit",
+   "url": "https://github.com/gbtweilai-star/gbt-bits-kit",
+   "atlas": "caps/creation/bits_kit.md"
+  },
+  {
+   "index": 14,
+   "name": "blender",
+   "domain": "creation",
+   "gated": true,
+   "repo": "gbt-blender",
+   "url": "https://github.com/gbtweilai-star/gbt-blender",
+   "atlas": "caps/creation/blender.md"
+  },
+  {
+   "index": 15,
+   "name": "brand_outro",
+   "domain": "creation",
+   "gated": false,
+   "repo": "gbt-brand-outro",
+   "url": "https://github.com/gbtweilai-star/gbt-brand-outro",
+   "atlas": "caps/creation/brand_outro.md"
+  },
+  {
+   "index": 16,
+   "name": "cad_distill",
+   "domain": "creation",
+   "gated": false,
+   "repo": "gbt-cad-distill",
+   "url": "https://github.com/gbtweilai-star/gbt-cad-distill",
+   "atlas": "caps/creation/cad_distill.md"
+  },
+  {
+   "index": 17,
+   "name": "cadgen",
+   "domain": "creation",
+   "gated": true,
+   "repo": "gbt-cadgen",
+   "url": "https://github.com/gbtweilai-star/gbt-cadgen",
+   "atlas": "caps/creation/cadgen.md"
+  },
+  {
+   "index": 18,
+   "name": "code_art",
+   "domain": "creation",
+   "gated": false,
+   "repo": "gbt-code-art",
+   "url": "https://github.com/gbtweilai-star/gbt-code-art",
+   "atlas": "caps/creation/code_art.md"
+  },
+  {
+   "index": 19,
+   "name": "comfy_cloud",
+   "domain": "creation",
+   "gated": true,
+   "repo": "gbt-comfy-cloud",
+   "url": "https://github.com/gbtweilai-star/gbt-comfy-cloud",
+   "atlas": "caps/creation/comfy_cloud.md"
+  },
+  {
+   "index": 20,
+   "name": "comfy_forge",
+   "domain": "creation",
+   "gated": false,
+   "repo": "gbt-comfy-forge",
+   "url": "https://github.com/gbtweilai-star/gbt-comfy-forge",
+   "atlas": "caps/creation/comfy_forge.md"
+  },
+  {
+   "index": 21,
+   "name": "comfy_native",
+   "domain": "creation",
+   "gated": false,
+   "repo": "gbt-comfy-native",
+   "url": "https://github.com/gbtweilai-star/gbt-comfy-native",
+   "atlas": "caps/creation/comfy_native.md"
+  },
+  {
+   "index": 22,
+   "name": "comfyui",
+   "domain": "creation",
+   "gated": false,
+   "repo": "gbt-comfyui",
+   "url": "https://github.com/gbtweilai-star/gbt-comfyui",
+   "atlas": "caps/creation/comfyui.md"
+  },
+  {
+   "index": 23,
+   "name": "console_pages",
+   "domain": "creation",
+   "gated": false,
+   "repo": "gbt-console-pages",
+   "url": "https://github.com/gbtweilai-star/gbt-console-pages",
+   "atlas": "caps/creation/console_pages.md"
+  },
+  {
+   "index": 24,
+   "name": "create",
+   "domain": "creation",
+   "gated": false,
+   "repo": "gbt-create",
+   "url": "https://github.com/gbtweilai-star/gbt-create",
+   "atlas": "caps/creation/create.md"
+  },
+  {
+   "index": 25,
+   "name": "creation_camp",
+   "domain": "creation",
+   "gated": false,
+   "repo": "gbt-creation-camp",
+   "url": "https://github.com/gbtweilai-star/gbt-creation-camp",
+   "atlas": "caps/creation/creation_camp.md"
+  },
+  {
+   "index": 26,
+   "name": "design_atlas",
+   "domain": "creation",
+   "gated": false,
+   "repo": "gbt-design-atlas",
+   "url": "https://github.com/gbtweilai-star/gbt-design-atlas",
+   "atlas": "caps/creation/design_atlas.md"
+  },
+  {
+   "index": 27,
+   "name": "dh_asset_gate",
+   "domain": "creation",
+   "gated": false,
+   "repo": "gbt-dh-asset-gate",
+   "url": "https://github.com/gbtweilai-star/gbt-dh-asset-gate",
+   "atlas": "caps/creation/dh_asset_gate.md"
+  },
+  {
+   "index": 28,
+   "name": "dh_brain",
+   "domain": "creation",
+   "gated": false,
+   "repo": "gbt-dh-brain",
+   "url": "https://github.com/gbtweilai-star/gbt-dh-brain",
+   "atlas": "caps/creation/dh_brain.md"
+  },
+  {
+   "index": 29,
+   "name": "dh_pose",
+   "domain": "creation",
+   "gated": true,
+   "repo": "gbt-dh-pose",
+   "url": "https://github.com/gbtweilai-star/gbt-dh-pose",
+   "atlas": "caps/creation/dh_pose.md"
+  },
+  {
+   "index": 30,
+   "name": "dh_realism",
+   "domain": "creation",
+   "gated": false,
+   "repo": "gbt-dh-realism",
+   "url": "https://github.com/gbtweilai-star/gbt-dh-realism",
+   "atlas": "caps/creation/dh_realism.md"
+  },
+  {
+   "index": 31,
+   "name": "diagram_distill",
+   "domain": "creation",
+   "gated": false,
+   "repo": "gbt-diagram-distill",
+   "url": "https://github.com/gbtweilai-star/gbt-diagram-distill",
+   "atlas": "caps/creation/diagram_distill.md"
+  },
+  {
+   "index": 32,
+   "name": "dl_forge",
+   "domain": "creation",
+   "gated": false,
+   "repo": "gbt-dl-forge",
+   "url": "https://github.com/gbtweilai-star/gbt-dl-forge",
+   "atlas": "caps/creation/dl_forge.md"
+  },
+  {
+   "index": 33,
+   "name": "drama",
+   "domain": "creation",
+   "gated": false,
+   "repo": "gbt-drama",
+   "url": "https://github.com/gbtweilai-star/gbt-drama",
+   "atlas": "caps/creation/drama.md"
+  },
+  {
+   "index": 34,
+   "name": "emotion_projection",
+   "domain": "creation",
+   "gated": false,
+   "repo": "gbt-emotion-projection",
+   "url": "https://github.com/gbtweilai-star/gbt-emotion-projection",
+   "atlas": "caps/creation/emotion_projection.md"
+  },
+  {
+   "index": 35,
+   "name": "filmkit",
+   "domain": "creation",
+   "gated": true,
+   "repo": "gbt-filmkit",
+   "url": "https://github.com/gbtweilai-star/gbt-filmkit",
+   "atlas": "caps/creation/filmkit.md"
+  },
+  {
+   "index": 36,
+   "name": "flow_canvas",
+   "domain": "creation",
+   "gated": false,
+   "repo": "gbt-flow-canvas",
+   "url": "https://github.com/gbtweilai-star/gbt-flow-canvas",
+   "atlas": "caps/creation/flow_canvas.md"
+  },
+  {
+   "index": 37,
+   "name": "forge_mastery",
+   "domain": "creation",
+   "gated": true,
+   "repo": "gbt-forge-mastery",
+   "url": "https://github.com/gbtweilai-star/gbt-forge-mastery",
+   "atlas": "caps/creation/forge_mastery.md"
+  },
+  {
+   "index": 38,
+   "name": "genoffice",
+   "domain": "creation",
+   "gated": true,
+   "repo": "gbt-genoffice",
+   "url": "https://github.com/gbtweilai-star/gbt-genoffice",
+   "atlas": "caps/creation/genoffice.md"
+  },
+  {
+   "index": 39,
+   "name": "gs_h3",
+   "domain": "creation",
+   "gated": true,
+   "repo": "gbt-gs-h3",
+   "url": "https://github.com/gbtweilai-star/gbt-gs-h3",
+   "atlas": "caps/creation/gs_h3.md"
+  },
+  {
+   "index": 40,
+   "name": "image_scout",
+   "domain": "creation",
+   "gated": false,
+   "repo": "gbt-image-scout",
+   "url": "https://github.com/gbtweilai-star/gbt-image-scout",
+   "atlas": "caps/creation/image_scout.md"
+  },
+  {
+   "index": 41,
+   "name": "intake_kit",
+   "domain": "creation",
+   "gated": false,
+   "repo": "gbt-intake-kit",
+   "url": "https://github.com/gbtweilai-star/gbt-intake-kit",
+   "atlas": "caps/creation/intake_kit.md"
+  },
+  {
+   "index": 42,
+   "name": "lobehub",
+   "domain": "creation",
+   "gated": false,
+   "repo": "gbt-lobehub",
+   "url": "https://github.com/gbtweilai-star/gbt-lobehub",
+   "atlas": "caps/creation/lobehub.md"
+  },
+  {
+   "index": 43,
+   "name": "machine_distill",
+   "domain": "creation",
+   "gated": false,
+   "repo": "gbt-machine-distill",
+   "url": "https://github.com/gbtweilai-star/gbt-machine-distill",
+   "atlas": "caps/creation/machine_distill.md"
+  },
+  {
+   "index": 44,
+   "name": "machine_film",
+   "domain": "creation",
+   "gated": true,
+   "repo": "gbt-machine-film",
+   "url": "https://github.com/gbtweilai-star/gbt-machine-film",
+   "atlas": "caps/creation/machine_film.md"
+  },
+  {
+   "index": 45,
+   "name": "motion_kit",
+   "domain": "creation",
+   "gated": false,
+   "repo": "gbt-motion-kit",
+   "url": "https://github.com/gbtweilai-star/gbt-motion-kit",
+   "atlas": "caps/creation/motion_kit.md"
+  },
+  {
+   "index": 46,
+   "name": "music_auto",
+   "domain": "creation",
+   "gated": true,
+   "repo": "gbt-music-auto",
+   "url": "https://github.com/gbtweilai-star/gbt-music-auto",
+   "atlas": "caps/creation/music_auto.md"
+  },
+  {
+   "index": 47,
+   "name": "music_publishing",
+   "domain": "creation",
+   "gated": false,
+   "repo": "gbt-music-publishing",
+   "url": "https://github.com/gbtweilai-star/gbt-music-publishing",
+   "atlas": "caps/creation/music_publishing.md"
+  },
+  {
+   "index": 48,
+   "name": "omni_arm",
+   "domain": "creation",
+   "gated": true,
+   "repo": "gbt-omni-arm",
+   "url": "https://github.com/gbtweilai-star/gbt-omni-arm",
+   "atlas": "caps/creation/omni_arm.md"
+  },
+  {
+   "index": 49,
+   "name": "one_shot",
+   "domain": "creation",
+   "gated": false,
+   "repo": "gbt-one-shot",
+   "url": "https://github.com/gbtweilai-star/gbt-one-shot",
+   "atlas": "caps/creation/one_shot.md"
+  },
+  {
+   "index": 50,
+   "name": "pod_link",
+   "domain": "creation",
+   "gated": true,
+   "repo": "gbt-pod-link",
+   "url": "https://github.com/gbtweilai-star/gbt-pod-link",
+   "atlas": "caps/creation/pod_link.md"
+  },
+  {
+   "index": 51,
+   "name": "render_evolution",
+   "domain": "creation",
+   "gated": false,
+   "repo": "gbt-render-evolution",
+   "url": "https://github.com/gbtweilai-star/gbt-render-evolution",
+   "atlas": "caps/creation/render_evolution.md"
+  },
+  {
+   "index": 52,
+   "name": "rig_audit",
+   "domain": "creation",
+   "gated": true,
+   "repo": "gbt-rig-audit",
+   "url": "https://github.com/gbtweilai-star/gbt-rig-audit",
+   "atlas": "caps/creation/rig_audit.md"
+  },
+  {
+   "index": 53,
+   "name": "rig_fix",
+   "domain": "creation",
+   "gated": true,
+   "repo": "gbt-rig-fix",
+   "url": "https://github.com/gbtweilai-star/gbt-rig-fix",
+   "atlas": "caps/creation/rig_fix.md"
+  },
+  {
+   "index": 54,
+   "name": "scene_anchor",
+   "domain": "creation",
+   "gated": false,
+   "repo": "gbt-scene-anchor",
+   "url": "https://github.com/gbtweilai-star/gbt-scene-anchor",
+   "atlas": "caps/creation/scene_anchor.md"
+  },
+  {
+   "index": 55,
+   "name": "shot_director",
+   "domain": "creation",
+   "gated": true,
+   "repo": "gbt-shot-director",
+   "url": "https://github.com/gbtweilai-star/gbt-shot-director",
+   "atlas": "caps/creation/shot_director.md"
+  },
+  {
+   "index": 56,
+   "name": "showcase_ops",
+   "domain": "creation",
+   "gated": true,
+   "repo": "gbt-showcase-ops",
+   "url": "https://github.com/gbtweilai-star/gbt-showcase-ops",
+   "atlas": "caps/creation/showcase_ops.md"
+  },
+  {
+   "index": 57,
+   "name": "tentacle_comfy_bridge",
+   "domain": "creation",
+   "gated": false,
+   "repo": "gbt-tentacle-comfy-bridge",
+   "url": "https://github.com/gbtweilai-star/gbt-tentacle-comfy-bridge",
+   "atlas": "caps/creation/tentacle_comfy_bridge.md"
+  },
+  {
+   "index": 58,
+   "name": "tripo",
+   "domain": "creation",
+   "gated": true,
+   "repo": "gbt-tripo",
+   "url": "https://github.com/gbtweilai-star/gbt-tripo",
+   "atlas": "caps/creation/tripo.md"
+  },
+  {
+   "index": 59,
+   "name": "ui_kit",
+   "domain": "creation",
+   "gated": false,
+   "repo": "gbt-ui-kit",
+   "url": "https://github.com/gbtweilai-star/gbt-ui-kit",
+   "atlas": "caps/creation/ui_kit.md"
+  },
+  {
+   "index": 60,
+   "name": "ui_render",
+   "domain": "creation",
+   "gated": false,
+   "repo": "gbt-ui-render",
+   "url": "https://github.com/gbtweilai-star/gbt-ui-render",
+   "atlas": "caps/creation/ui_render.md"
+  },
+  {
+   "index": 61,
+   "name": "zimage_rewash",
+   "domain": "creation",
+   "gated": true,
+   "repo": "gbt-zimage-rewash",
+   "url": "https://github.com/gbtweilai-star/gbt-zimage-rewash",
+   "atlas": "caps/creation/zimage_rewash.md"
+  },
+  {
+   "index": 62,
+   "name": "account_registry",
+   "domain": "data",
+   "gated": false,
+   "repo": "gbt-account-registry",
+   "url": "https://github.com/gbtweilai-star/gbt-account-registry",
+   "atlas": "caps/data/account_registry.md"
+  },
+  {
+   "index": 63,
+   "name": "audit_query",
+   "domain": "data",
+   "gated": false,
+   "repo": "gbt-audit-query",
+   "url": "https://github.com/gbtweilai-star/gbt-audit-query",
+   "atlas": "caps/data/audit_query.md"
+  },
+  {
+   "index": 64,
+   "name": "bi_distill",
+   "domain": "data",
+   "gated": false,
+   "repo": "gbt-bi-distill",
+   "url": "https://github.com/gbtweilai-star/gbt-bi-distill",
+   "atlas": "caps/data/bi_distill.md"
+  },
+  {
+   "index": 65,
+   "name": "chart_html",
+   "domain": "data",
+   "gated": true,
+   "repo": "gbt-chart-html",
+   "url": "https://github.com/gbtweilai-star/gbt-chart-html",
+   "atlas": "caps/data/chart_html.md"
+  },
+  {
+   "index": 66,
+   "name": "count_words",
+   "domain": "data",
+   "gated": false,
+   "repo": "gbt-count-words",
+   "url": "https://github.com/gbtweilai-star/gbt-count-words",
+   "atlas": "caps/data/count_words.md"
+  },
+  {
+   "index": 67,
+   "name": "datakit",
+   "domain": "data",
+   "gated": false,
+   "repo": "gbt-datakit",
+   "url": "https://github.com/gbtweilai-star/gbt-datakit",
+   "atlas": "caps/data/datakit.md"
+  },
+  {
+   "index": 68,
+   "name": "db_plugin",
+   "domain": "data",
+   "gated": false,
+   "repo": "gbt-db-plugin",
+   "url": "https://github.com/gbtweilai-star/gbt-db-plugin",
+   "atlas": "caps/data/db_plugin.md"
+  },
+  {
+   "index": 69,
+   "name": "db_probe",
+   "domain": "data",
+   "gated": false,
+   "repo": "gbt-db-probe",
+   "url": "https://github.com/gbtweilai-star/gbt-db-probe",
+   "atlas": "caps/data/db_probe.md"
+  },
+  {
+   "index": 70,
+   "name": "echo",
+   "domain": "data",
+   "gated": false,
+   "repo": "gbt-echo",
+   "url": "https://github.com/gbtweilai-star/gbt-echo",
+   "atlas": "caps/data/echo.md"
+  },
+  {
+   "index": 71,
+   "name": "humanizer",
+   "domain": "data",
+   "gated": true,
+   "repo": "gbt-humanizer",
+   "url": "https://github.com/gbtweilai-star/gbt-humanizer",
+   "atlas": "caps/data/humanizer.md"
+  },
+  {
+   "index": 72,
+   "name": "record_grid",
+   "domain": "data",
+   "gated": false,
+   "repo": "gbt-record-grid",
+   "url": "https://github.com/gbtweilai-star/gbt-record-grid",
+   "atlas": "caps/data/record_grid.md"
+  },
+  {
+   "index": 73,
+   "name": "skill_finder",
+   "domain": "data",
+   "gated": true,
+   "repo": "gbt-skill-finder",
+   "url": "https://github.com/gbtweilai-star/gbt-skill-finder",
+   "atlas": "caps/data/skill_finder.md"
+  },
+  {
+   "index": 74,
+   "name": "control_loop",
+   "domain": "desktop",
+   "gated": false,
+   "repo": "gbt-control-loop",
+   "url": "https://github.com/gbtweilai-star/gbt-control-loop",
+   "atlas": "caps/desktop/control_loop.md"
+  },
+  {
+   "index": 75,
+   "name": "ul_tars_desktop",
+   "domain": "desktop",
+   "gated": true,
+   "repo": "gbt-ul-tars-desktop",
+   "url": "https://github.com/gbtweilai-star/gbt-ul-tars-desktop",
+   "atlas": "caps/desktop/ul_tars_desktop.md"
+  },
+  {
+   "index": 76,
+   "name": "bluetooth",
+   "domain": "device",
+   "gated": false,
+   "repo": "gbt-bluetooth",
+   "url": "https://github.com/gbtweilai-star/gbt-bluetooth",
+   "atlas": "caps/device/bluetooth.md"
+  },
+  {
+   "index": 77,
+   "name": "bt_control",
+   "domain": "device",
+   "gated": false,
+   "repo": "gbt-bt-control",
+   "url": "https://github.com/gbtweilai-star/gbt-bt-control",
+   "atlas": "caps/device/bt_control.md"
+  },
+  {
+   "index": 78,
+   "name": "devour_fusion",
+   "domain": "devour",
+   "gated": false,
+   "repo": "gbt-devour-fusion",
+   "url": "https://github.com/gbtweilai-star/gbt-devour-fusion",
+   "atlas": "caps/devour/devour_fusion.md"
+  },
+  {
+   "index": 79,
+   "name": "devour_github",
+   "domain": "devour",
+   "gated": false,
+   "repo": "gbt-devour-github",
+   "url": "https://github.com/gbtweilai-star/gbt-devour-github",
+   "atlas": "caps/devour/devour_github.md"
+  },
+  {
+   "index": 80,
+   "name": "devour_pulse",
+   "domain": "devour",
+   "gated": false,
+   "repo": "gbt-devour-pulse",
+   "url": "https://github.com/gbtweilai-star/gbt-devour-pulse",
+   "atlas": "caps/devour/devour_pulse.md"
+  },
+  {
+   "index": 81,
+   "name": "devour_reflect",
+   "domain": "devour",
+   "gated": false,
+   "repo": "gbt-devour-reflect",
+   "url": "https://github.com/gbtweilai-star/gbt-devour-reflect",
+   "atlas": "caps/devour/devour_reflect.md"
+  },
+  {
+   "index": 82,
+   "name": "devour_scan",
+   "domain": "devour",
+   "gated": false,
+   "repo": "gbt-devour-scan",
+   "url": "https://github.com/gbtweilai-star/gbt-devour-scan",
+   "atlas": "caps/devour/devour_scan.md"
+  },
+  {
+   "index": 83,
+   "name": "sched_define",
+   "domain": "engine",
+   "gated": false,
+   "repo": "gbt-sched-define",
+   "url": "https://github.com/gbtweilai-star/gbt-sched-define",
+   "atlas": "caps/engine/sched_define.md"
+  },
+  {
+   "index": 84,
+   "name": "sched_status",
+   "domain": "engine",
+   "gated": false,
+   "repo": "gbt-sched-status",
+   "url": "https://github.com/gbtweilai-star/gbt-sched-status",
+   "atlas": "caps/engine/sched_status.md"
+  },
+  {
+   "index": 85,
+   "name": "sched_tick",
+   "domain": "engine",
+   "gated": false,
+   "repo": "gbt-sched-tick",
+   "url": "https://github.com/gbtweilai-star/gbt-sched-tick",
+   "atlas": "caps/engine/sched_tick.md"
+  },
+  {
+   "index": 86,
+   "name": "transfer",
+   "domain": "engine",
+   "gated": false,
+   "repo": "gbt-transfer",
+   "url": "https://github.com/gbtweilai-star/gbt-transfer",
+   "atlas": "caps/engine/transfer.md"
+  },
+  {
+   "index": 87,
+   "name": "wf_cache_clear",
+   "domain": "engine",
+   "gated": false,
+   "repo": "gbt-wf-cache-clear",
+   "url": "https://github.com/gbtweilai-star/gbt-wf-cache-clear",
+   "atlas": "caps/engine/wf_cache_clear.md"
+  },
+  {
+   "index": 88,
+   "name": "wf_define",
+   "domain": "engine",
+   "gated": false,
+   "repo": "gbt-wf-define",
+   "url": "https://github.com/gbtweilai-star/gbt-wf-define",
+   "atlas": "caps/engine/wf_define.md"
+  },
+  {
+   "index": 89,
+   "name": "wf_resume",
+   "domain": "engine",
+   "gated": false,
+   "repo": "gbt-wf-resume",
+   "url": "https://github.com/gbtweilai-star/gbt-wf-resume",
+   "atlas": "caps/engine/wf_resume.md"
+  },
+  {
+   "index": 90,
+   "name": "wf_run",
+   "domain": "engine",
+   "gated": false,
+   "repo": "gbt-wf-run",
+   "url": "https://github.com/gbtweilai-star/gbt-wf-run",
+   "atlas": "caps/engine/wf_run.md"
+  },
+  {
+   "index": 91,
+   "name": "wf_status",
+   "domain": "engine",
+   "gated": false,
+   "repo": "gbt-wf-status",
+   "url": "https://github.com/gbtweilai-star/gbt-wf-status",
+   "atlas": "caps/engine/wf_status.md"
+  },
+  {
+   "index": 92,
+   "name": "workflow_forge",
+   "domain": "engine",
+   "gated": true,
+   "repo": "gbt-workflow-forge",
+   "url": "https://github.com/gbtweilai-star/gbt-workflow-forge",
+   "atlas": "caps/engine/workflow_forge.md"
+  },
+  {
+   "index": 93,
+   "name": "quant",
+   "domain": "finance",
+   "gated": false,
+   "repo": "gbt-quant",
+   "url": "https://github.com/gbtweilai-star/gbt-quant",
+   "atlas": "caps/finance/quant.md"
+  },
+  {
+   "index": 94,
+   "name": "quant_backtest",
+   "domain": "finance",
+   "gated": false,
+   "repo": "gbt-quant-backtest",
+   "url": "https://github.com/gbtweilai-star/gbt-quant-backtest",
+   "atlas": "caps/finance/quant_backtest.md"
+  },
+  {
+   "index": 95,
+   "name": "quant_params",
+   "domain": "finance",
+   "gated": false,
+   "repo": "gbt-quant-params",
+   "url": "https://github.com/gbtweilai-star/gbt-quant-params",
+   "atlas": "caps/finance/quant_params.md"
+  },
+  {
+   "index": 96,
+   "name": "quant_strategy",
+   "domain": "finance",
+   "gated": false,
+   "repo": "gbt-quant-strategy",
+   "url": "https://github.com/gbtweilai-star/gbt-quant-strategy",
+   "atlas": "caps/finance/quant_strategy.md"
+  },
+  {
+   "index": 97,
+   "name": "gate_visibility",
+   "domain": "framework",
+   "gated": false,
+   "repo": "gbt-gate-visibility",
+   "url": "https://github.com/gbtweilai-star/gbt-gate-visibility",
+   "atlas": "caps/framework/gate_visibility.md"
+  },
+  {
+   "index": 98,
+   "name": "a1art_skill",
+   "domain": "image_video",
+   "gated": false,
+   "repo": "gbt-a1art-skill",
+   "url": "https://github.com/gbtweilai-star/gbt-a1art-skill",
+   "atlas": "caps/image_video/a1art_skill.md"
+  },
+  {
+   "index": 99,
+   "name": "cloud_pc",
+   "domain": "infra",
+   "gated": false,
+   "repo": "gbt-cloud-pc",
+   "url": "https://github.com/gbtweilai-star/gbt-cloud-pc",
+   "atlas": "caps/infra/cloud_pc.md"
+  },
+  {
+   "index": 100,
+   "name": "cloud_plugin",
+   "domain": "infra",
+   "gated": false,
+   "repo": "gbt-cloud-plugin",
+   "url": "https://github.com/gbtweilai-star/gbt-cloud-plugin",
+   "atlas": "caps/infra/cloud_plugin.md"
+  },
+  {
+   "index": 101,
+   "name": "cli_chat",
+   "domain": "integration",
+   "gated": true,
+   "repo": "gbt-cli-chat",
+   "url": "https://github.com/gbtweilai-star/gbt-cli-chat",
+   "atlas": "caps/integration/cli_chat.md"
+  },
+  {
+   "index": 102,
+   "name": "cli_ify",
+   "domain": "integration",
+   "gated": true,
+   "repo": "gbt-cli-ify",
+   "url": "https://github.com/gbtweilai-star/gbt-cli-ify",
+   "atlas": "caps/integration/cli_ify.md"
+  },
+  {
+   "index": 103,
+   "name": "feishu_embed",
+   "domain": "integration",
+   "gated": false,
+   "repo": "gbt-feishu-embed",
+   "url": "https://github.com/gbtweilai-star/gbt-feishu-embed",
+   "atlas": "caps/integration/feishu_embed.md"
+  },
+  {
+   "index": 104,
+   "name": "notion_bridge",
+   "domain": "integration",
+   "gated": true,
+   "repo": "gbt-notion-bridge",
+   "url": "https://github.com/gbtweilai-star/gbt-notion-bridge",
+   "atlas": "caps/integration/notion_bridge.md"
+  },
+  {
+   "index": 105,
+   "name": "telegram_embed",
+   "domain": "integration",
+   "gated": false,
+   "repo": "gbt-telegram-embed",
+   "url": "https://github.com/gbtweilai-star/gbt-telegram-embed",
+   "atlas": "caps/integration/telegram_embed.md"
+  },
+  {
+   "index": 106,
+   "name": "thebrain_bridge",
+   "domain": "integration",
+   "gated": true,
+   "repo": "gbt-thebrain-bridge",
+   "url": "https://github.com/gbtweilai-star/gbt-thebrain-bridge",
+   "atlas": "caps/integration/thebrain_bridge.md"
+  },
+  {
+   "index": 107,
+   "name": "whatsapp_embed",
+   "domain": "integration",
+   "gated": false,
+   "repo": "gbt-whatsapp-embed",
+   "url": "https://github.com/gbtweilai-star/gbt-whatsapp-embed",
+   "atlas": "caps/integration/whatsapp_embed.md"
+  },
+  {
+   "index": 108,
+   "name": "life",
+   "domain": "life",
+   "gated": false,
+   "repo": "gbt-life",
+   "url": "https://github.com/gbtweilai-star/gbt-life",
+   "atlas": "caps/life/life.md"
+  },
+  {
+   "index": 109,
+   "name": "automation_keys",
+   "domain": "llm",
+   "gated": false,
+   "repo": "gbt-automation-keys",
+   "url": "https://github.com/gbtweilai-star/gbt-automation-keys",
+   "atlas": "caps/llm/automation_keys.md"
+  },
+  {
+   "index": 110,
+   "name": "autopilot",
+   "domain": "llm",
+   "gated": false,
+   "repo": "gbt-autopilot",
+   "url": "https://github.com/gbtweilai-star/gbt-autopilot",
+   "atlas": "caps/llm/autopilot.md"
+  },
+  {
+   "index": 111,
+   "name": "brain_execute",
+   "domain": "llm",
+   "gated": false,
+   "repo": "gbt-brain-execute",
+   "url": "https://github.com/gbtweilai-star/gbt-brain-execute",
+   "atlas": "caps/llm/brain_execute.md"
+  },
+  {
+   "index": 112,
+   "name": "brain_health",
+   "domain": "llm",
+   "gated": false,
+   "repo": "gbt-brain-health",
+   "url": "https://github.com/gbtweilai-star/gbt-brain-health",
+   "atlas": "caps/llm/brain_health.md"
+  },
+  {
+   "index": 113,
+   "name": "brain_route",
+   "domain": "llm",
+   "gated": false,
+   "repo": "gbt-brain-route",
+   "url": "https://github.com/gbtweilai-star/gbt-brain-route",
+   "atlas": "caps/llm/brain_route.md"
+  },
+  {
+   "index": 114,
+   "name": "brain_unify",
+   "domain": "llm",
+   "gated": false,
+   "repo": "gbt-brain-unify",
+   "url": "https://github.com/gbtweilai-star/gbt-brain-unify",
+   "atlas": "caps/llm/brain_unify.md"
+  },
+  {
+   "index": 115,
+   "name": "brain_verify",
+   "domain": "llm",
+   "gated": false,
+   "repo": "gbt-brain-verify",
+   "url": "https://github.com/gbtweilai-star/gbt-brain-verify",
+   "atlas": "caps/llm/brain_verify.md"
+  },
+  {
+   "index": 116,
+   "name": "claude_code",
+   "domain": "llm",
+   "gated": true,
+   "repo": "gbt-claude-code",
+   "url": "https://github.com/gbtweilai-star/gbt-claude-code",
+   "atlas": "caps/llm/claude_code.md"
+  },
+  {
+   "index": 117,
+   "name": "cloud_llm",
+   "domain": "llm",
+   "gated": false,
+   "repo": "gbt-cloud-llm",
+   "url": "https://github.com/gbtweilai-star/gbt-cloud-llm",
+   "atlas": "caps/llm/cloud_llm.md"
+  },
+  {
+   "index": 118,
+   "name": "codebuddy",
+   "domain": "llm",
+   "gated": true,
+   "repo": "gbt-codebuddy",
+   "url": "https://github.com/gbtweilai-star/gbt-codebuddy",
+   "atlas": "caps/llm/codebuddy.md"
+  },
+  {
+   "index": 119,
+   "name": "codex_chat",
+   "domain": "llm",
+   "gated": false,
+   "repo": "gbt-codex-chat",
+   "url": "https://github.com/gbtweilai-star/gbt-codex-chat",
+   "atlas": "caps/llm/codex_chat.md"
+  },
+  {
+   "index": 120,
+   "name": "codex_interrupt",
+   "domain": "llm",
+   "gated": false,
+   "repo": "gbt-codex-interrupt",
+   "url": "https://github.com/gbtweilai-star/gbt-codex-interrupt",
+   "atlas": "caps/llm/codex_interrupt.md"
+  },
+  {
+   "index": 121,
+   "name": "codex_models",
+   "domain": "llm",
+   "gated": false,
+   "repo": "gbt-codex-models",
+   "url": "https://github.com/gbtweilai-star/gbt-codex-models",
+   "atlas": "caps/llm/codex_models.md"
+  },
+  {
+   "index": 122,
+   "name": "codex_status",
+   "domain": "llm",
+   "gated": false,
+   "repo": "gbt-codex-status",
+   "url": "https://github.com/gbtweilai-star/gbt-codex-status",
+   "atlas": "caps/llm/codex_status.md"
+  },
+  {
+   "index": 123,
+   "name": "codex_thread_new",
+   "domain": "llm",
+   "gated": false,
+   "repo": "gbt-codex-thread-new",
+   "url": "https://github.com/gbtweilai-star/gbt-codex-thread-new",
+   "atlas": "caps/llm/codex_thread_new.md"
+  },
+  {
+   "index": 124,
+   "name": "codex_tools",
+   "domain": "llm",
+   "gated": false,
+   "repo": "gbt-codex-tools",
+   "url": "https://github.com/gbtweilai-star/gbt-codex-tools",
+   "atlas": "caps/llm/codex_tools.md"
+  },
+  {
+   "index": 125,
+   "name": "codex_turn_send",
+   "domain": "llm",
+   "gated": false,
+   "repo": "gbt-codex-turn-send",
+   "url": "https://github.com/gbtweilai-star/gbt-codex-turn-send",
+   "atlas": "caps/llm/codex_turn_send.md"
+  },
+  {
+   "index": 126,
+   "name": "duty_board",
+   "domain": "llm",
+   "gated": false,
+   "repo": "gbt-duty-board",
+   "url": "https://github.com/gbtweilai-star/gbt-duty-board",
+   "atlas": "caps/llm/duty_board.md"
+  },
+  {
+   "index": 127,
+   "name": "energy_scheduler",
+   "domain": "llm",
+   "gated": false,
+   "repo": "gbt-energy-scheduler",
+   "url": "https://github.com/gbtweilai-star/gbt-energy-scheduler",
+   "atlas": "caps/llm/energy_scheduler.md"
+  },
+  {
+   "index": 128,
+   "name": "fact_gate",
+   "domain": "llm",
+   "gated": false,
+   "repo": "gbt-fact-gate",
+   "url": "https://github.com/gbtweilai-star/gbt-fact-gate",
+   "atlas": "caps/llm/fact_gate.md"
+  },
+  {
+   "index": 129,
+   "name": "freellmapi",
+   "domain": "llm",
+   "gated": false,
+   "repo": "gbt-freellmapi",
+   "url": "https://github.com/gbtweilai-star/gbt-freellmapi",
+   "atlas": "caps/llm/freellmapi.md"
+  },
+  {
+   "index": 130,
+   "name": "genoffice_bridge",
+   "domain": "llm",
+   "gated": true,
+   "repo": "gbt-genoffice-bridge",
+   "url": "https://github.com/gbtweilai-star/gbt-genoffice-bridge",
+   "atlas": "caps/llm/genoffice_bridge.md"
+  },
+  {
+   "index": 131,
+   "name": "key_gateway",
+   "domain": "llm",
+   "gated": true,
+   "repo": "gbt-key-gateway",
+   "url": "https://github.com/gbtweilai-star/gbt-key-gateway",
+   "atlas": "caps/llm/key_gateway.md"
+  },
+  {
+   "index": 132,
+   "name": "llm_chat",
+   "domain": "llm",
+   "gated": false,
+   "repo": "gbt-llm-chat",
+   "url": "https://github.com/gbtweilai-star/gbt-llm-chat",
+   "atlas": "caps/llm/llm_chat.md"
+  },
+  {
+   "index": 133,
+   "name": "llm_status",
+   "domain": "llm",
+   "gated": false,
+   "repo": "gbt-llm-status",
+   "url": "https://github.com/gbtweilai-star/gbt-llm-status",
+   "atlas": "caps/llm/llm_status.md"
+  },
+  {
+   "index": 134,
+   "name": "llm_watch",
+   "domain": "llm",
+   "gated": false,
+   "repo": "gbt-llm-watch",
+   "url": "https://github.com/gbtweilai-star/gbt-llm-watch",
+   "atlas": "caps/llm/llm_watch.md"
+  },
+  {
+   "index": 135,
+   "name": "model_key_pool",
+   "domain": "llm",
+   "gated": false,
+   "repo": "gbt-model-key-pool",
+   "url": "https://github.com/gbtweilai-star/gbt-model-key-pool",
+   "atlas": "caps/llm/model_key_pool.md"
+  },
+  {
+   "index": 136,
+   "name": "multimodal_port",
+   "domain": "llm",
+   "gated": true,
+   "repo": "gbt-multimodal-port",
+   "url": "https://github.com/gbtweilai-star/gbt-multimodal-port",
+   "atlas": "caps/llm/multimodal_port.md"
+  },
+  {
+   "index": 137,
+   "name": "offload_distill",
+   "domain": "llm",
+   "gated": false,
+   "repo": "gbt-offload-distill",
+   "url": "https://github.com/gbtweilai-star/gbt-offload-distill",
+   "atlas": "caps/llm/offload_distill.md"
+  },
+  {
+   "index": 138,
+   "name": "omni_plug",
+   "domain": "llm",
+   "gated": true,
+   "repo": "gbt-omni-plug",
+   "url": "https://github.com/gbtweilai-star/gbt-omni-plug",
+   "atlas": "caps/llm/omni_plug.md"
+  },
+  {
+   "index": 139,
+   "name": "policy_gate",
+   "domain": "llm",
+   "gated": false,
+   "repo": "gbt-policy-gate",
+   "url": "https://github.com/gbtweilai-star/gbt-policy-gate",
+   "atlas": "caps/llm/policy_gate.md"
+  },
+  {
+   "index": 140,
+   "name": "prompt_bridge",
+   "domain": "llm",
+   "gated": false,
+   "repo": "gbt-prompt-bridge",
+   "url": "https://github.com/gbtweilai-star/gbt-prompt-bridge",
+   "atlas": "caps/llm/prompt_bridge.md"
+  },
+  {
+   "index": 141,
+   "name": "quant_plan",
+   "domain": "llm",
+   "gated": true,
+   "repo": "gbt-quant-plan",
+   "url": "https://github.com/gbtweilai-star/gbt-quant-plan",
+   "atlas": "caps/llm/quant_plan.md"
+  },
+  {
+   "index": 142,
+   "name": "replan_loop",
+   "domain": "llm",
+   "gated": false,
+   "repo": "gbt-replan-loop",
+   "url": "https://github.com/gbtweilai-star/gbt-replan-loop",
+   "atlas": "caps/llm/replan_loop.md"
+  },
+  {
+   "index": 143,
+   "name": "ring_context",
+   "domain": "llm",
+   "gated": false,
+   "repo": "gbt-ring-context",
+   "url": "https://github.com/gbtweilai-star/gbt-ring-context",
+   "atlas": "caps/llm/ring_context.md"
+  },
+  {
+   "index": 144,
+   "name": "task_graph",
+   "domain": "llm",
+   "gated": false,
+   "repo": "gbt-task-graph",
+   "url": "https://github.com/gbtweilai-star/gbt-task-graph",
+   "atlas": "caps/llm/task_graph.md"
+  },
+  {
+   "index": 145,
+   "name": "think_loop",
+   "domain": "llm",
+   "gated": false,
+   "repo": "gbt-think-loop",
+   "url": "https://github.com/gbtweilai-star/gbt-think-loop",
+   "atlas": "caps/llm/think_loop.md"
+  },
+  {
+   "index": 146,
+   "name": "train_ground",
+   "domain": "llm",
+   "gated": true,
+   "repo": "gbt-train-ground",
+   "url": "https://github.com/gbtweilai-star/gbt-train-ground",
+   "atlas": "caps/llm/train_ground.md"
+  },
+  {
+   "index": 147,
+   "name": "train_recipe",
+   "domain": "llm",
+   "gated": false,
+   "repo": "gbt-train-recipe",
+   "url": "https://github.com/gbtweilai-star/gbt-train-recipe",
+   "atlas": "caps/llm/train_recipe.md"
+  },
+  {
+   "index": 148,
+   "name": "transformer",
+   "domain": "llm",
+   "gated": false,
+   "repo": "gbt-transformer",
+   "url": "https://github.com/gbtweilai-star/gbt-transformer",
+   "atlas": "caps/llm/transformer.md"
+  },
+  {
+   "index": 149,
+   "name": "warm_switch",
+   "domain": "llm",
+   "gated": false,
+   "repo": "gbt-warm-switch",
+   "url": "https://github.com/gbtweilai-star/gbt-warm-switch",
+   "atlas": "caps/llm/warm_switch.md"
+  },
+  {
+   "index": 150,
+   "name": "lr_status",
+   "domain": "longrun",
+   "gated": false,
+   "repo": "gbt-lr-status",
+   "url": "https://github.com/gbtweilai-star/gbt-lr-status",
+   "atlas": "caps/longrun/lr_status.md"
+  },
+  {
+   "index": 151,
+   "name": "lr_submit",
+   "domain": "longrun",
+   "gated": false,
+   "repo": "gbt-lr-submit",
+   "url": "https://github.com/gbtweilai-star/gbt-lr-submit",
+   "atlas": "caps/longrun/lr_submit.md"
+  },
+  {
+   "index": 152,
+   "name": "lr_tick",
+   "domain": "longrun",
+   "gated": false,
+   "repo": "gbt-lr-tick",
+   "url": "https://github.com/gbtweilai-star/gbt-lr-tick",
+   "atlas": "caps/longrun/lr_tick.md"
+  },
+  {
+   "index": 153,
+   "name": "tactics_advise",
+   "domain": "longrun",
+   "gated": false,
+   "repo": "gbt-tactics-advise",
+   "url": "https://github.com/gbtweilai-star/gbt-tactics-advise",
+   "atlas": "caps/longrun/tactics_advise.md"
+  },
+  {
+   "index": 154,
+   "name": "agent_council",
+   "domain": "mind",
+   "gated": false,
+   "repo": "gbt-agent-council",
+   "url": "https://github.com/gbtweilai-star/gbt-agent-council",
+   "atlas": "caps/mind/agent_council.md"
+  },
+  {
+   "index": 155,
+   "name": "auto_switch",
+   "domain": "mind",
+   "gated": false,
+   "repo": "gbt-auto-switch",
+   "url": "https://github.com/gbtweilai-star/gbt-auto-switch",
+   "atlas": "caps/mind/auto_switch.md"
+  },
+  {
+   "index": 156,
+   "name": "belief_forge",
+   "domain": "mind",
+   "gated": false,
+   "repo": "gbt-belief-forge",
+   "url": "https://github.com/gbtweilai-star/gbt-belief-forge",
+   "atlas": "caps/mind/belief_forge.md"
+  },
+  {
+   "index": 157,
+   "name": "brain_council",
+   "domain": "mind",
+   "gated": false,
+   "repo": "gbt-brain-council",
+   "url": "https://github.com/gbtweilai-star/gbt-brain-council",
+   "atlas": "caps/mind/brain_council.md"
+  },
+  {
+   "index": 158,
+   "name": "brain_vault",
+   "domain": "mind",
+   "gated": false,
+   "repo": "gbt-brain-vault",
+   "url": "https://github.com/gbtweilai-star/gbt-brain-vault",
+   "atlas": "caps/mind/brain_vault.md"
+  },
+  {
+   "index": 159,
+   "name": "command_chain",
+   "domain": "mind",
+   "gated": false,
+   "repo": "gbt-command-chain",
+   "url": "https://github.com/gbtweilai-star/gbt-command-chain",
+   "atlas": "caps/mind/command_chain.md"
+  },
+  {
+   "index": 160,
+   "name": "director_mood",
+   "domain": "mind",
+   "gated": false,
+   "repo": "gbt-director-mood",
+   "url": "https://github.com/gbtweilai-star/gbt-director-mood",
+   "atlas": "caps/mind/director_mood.md"
+  },
+  {
+   "index": 161,
+   "name": "doc_intake",
+   "domain": "mind",
+   "gated": false,
+   "repo": "gbt-doc-intake",
+   "url": "https://github.com/gbtweilai-star/gbt-doc-intake",
+   "atlas": "caps/mind/doc_intake.md"
+  },
+  {
+   "index": 162,
+   "name": "local_brain",
+   "domain": "mind",
+   "gated": false,
+   "repo": "gbt-local-brain",
+   "url": "https://github.com/gbtweilai-star/gbt-local-brain",
+   "atlas": "caps/mind/local_brain.md"
+  },
+  {
+   "index": 163,
+   "name": "memory_bank",
+   "domain": "mind",
+   "gated": false,
+   "repo": "gbt-memory-bank",
+   "url": "https://github.com/gbtweilai-star/gbt-memory-bank",
+   "atlas": "caps/mind/memory_bank.md"
+  },
+  {
+   "index": 164,
+   "name": "memory_manager",
+   "domain": "mind",
+   "gated": false,
+   "repo": "gbt-memory-manager",
+   "url": "https://github.com/gbtweilai-star/gbt-memory-manager",
+   "atlas": "caps/mind/memory_manager.md"
+  },
+  {
+   "index": 165,
+   "name": "meta_cognition",
+   "domain": "mind",
+   "gated": false,
+   "repo": "gbt-meta-cognition",
+   "url": "https://github.com/gbtweilai-star/gbt-meta-cognition",
+   "atlas": "caps/mind/meta_cognition.md"
+  },
+  {
+   "index": 166,
+   "name": "mind",
+   "domain": "mind",
+   "gated": false,
+   "repo": "gbt-mind",
+   "url": "https://github.com/gbtweilai-star/gbt-mind",
+   "atlas": "caps/mind/mind.md"
+  },
+  {
+   "index": 167,
+   "name": "observer_anchor",
+   "domain": "mind",
+   "gated": false,
+   "repo": "gbt-observer-anchor",
+   "url": "https://github.com/gbtweilai-star/gbt-observer-anchor",
+   "atlas": "caps/mind/observer_anchor.md"
+  },
+  {
+   "index": 168,
+   "name": "obsidian_vault",
+   "domain": "mind",
+   "gated": false,
+   "repo": "gbt-obsidian-vault",
+   "url": "https://github.com/gbtweilai-star/gbt-obsidian-vault",
+   "atlas": "caps/mind/obsidian_vault.md"
+  },
+  {
+   "index": 169,
+   "name": "persona_kernel",
+   "domain": "mind",
+   "gated": false,
+   "repo": "gbt-persona-kernel",
+   "url": "https://github.com/gbtweilai-star/gbt-persona-kernel",
+   "atlas": "caps/mind/persona_kernel.md"
+  },
+  {
+   "index": 170,
+   "name": "proactive_report",
+   "domain": "mind",
+   "gated": false,
+   "repo": "gbt-proactive-report",
+   "url": "https://github.com/gbtweilai-star/gbt-proactive-report",
+   "atlas": "caps/mind/proactive_report.md"
+  },
+  {
+   "index": 171,
+   "name": "self_intake",
+   "domain": "mind",
+   "gated": true,
+   "repo": "gbt-self-intake",
+   "url": "https://github.com/gbtweilai-star/gbt-self-intake",
+   "atlas": "caps/mind/self_intake.md"
+  },
+  {
+   "index": 172,
+   "name": "wiki_graph",
+   "domain": "mind",
+   "gated": false,
+   "repo": "gbt-wiki-graph",
+   "url": "https://github.com/gbtweilai-star/gbt-wiki-graph",
+   "atlas": "caps/mind/wiki_graph.md"
+  },
+  {
+   "index": 173,
+   "name": "deploy_queue",
+   "domain": "pipeline",
+   "gated": false,
+   "repo": "gbt-deploy-queue",
+   "url": "https://github.com/gbtweilai-star/gbt-deploy-queue",
+   "atlas": "caps/pipeline/deploy_queue.md"
+  },
+  {
+   "index": 174,
+   "name": "ghost_guard",
+   "domain": "pipeline",
+   "gated": false,
+   "repo": "gbt-ghost-guard",
+   "url": "https://github.com/gbtweilai-star/gbt-ghost-guard",
+   "atlas": "caps/pipeline/ghost_guard.md"
+  },
+  {
+   "index": 175,
+   "name": "mirror_ascend",
+   "domain": "pipeline",
+   "gated": false,
+   "repo": "gbt-mirror-ascend",
+   "url": "https://github.com/gbtweilai-star/gbt-mirror-ascend",
+   "atlas": "caps/pipeline/mirror_ascend.md"
+  },
+  {
+   "index": 176,
+   "name": "mirror_parity",
+   "domain": "pipeline",
+   "gated": false,
+   "repo": "gbt-mirror-parity",
+   "url": "https://github.com/gbtweilai-star/gbt-mirror-parity",
+   "atlas": "caps/pipeline/mirror_parity.md"
+  },
+  {
+   "index": 177,
+   "name": "mirror_plan",
+   "domain": "pipeline",
+   "gated": false,
+   "repo": "gbt-mirror-plan",
+   "url": "https://github.com/gbtweilai-star/gbt-mirror-plan",
+   "atlas": "caps/pipeline/mirror_plan.md"
+  },
+  {
+   "index": 178,
+   "name": "mirror_rehearse",
+   "domain": "pipeline",
+   "gated": false,
+   "repo": "gbt-mirror-rehearse",
+   "url": "https://github.com/gbtweilai-star/gbt-mirror-rehearse",
+   "atlas": "caps/pipeline/mirror_rehearse.md"
+  },
+  {
+   "index": 179,
+   "name": "mirror_release",
+   "domain": "pipeline",
+   "gated": false,
+   "repo": "gbt-mirror-release",
+   "url": "https://github.com/gbtweilai-star/gbt-mirror-release",
+   "atlas": "caps/pipeline/mirror_release.md"
+  },
+  {
+   "index": 180,
+   "name": "mirror_rewind",
+   "domain": "pipeline",
+   "gated": false,
+   "repo": "gbt-mirror-rewind",
+   "url": "https://github.com/gbtweilai-star/gbt-mirror-rewind",
+   "atlas": "caps/pipeline/mirror_rewind.md"
+  },
+  {
+   "index": 181,
+   "name": "mirror_scan",
+   "domain": "pipeline",
+   "gated": false,
+   "repo": "gbt-mirror-scan",
+   "url": "https://github.com/gbtweilai-star/gbt-mirror-scan",
+   "atlas": "caps/pipeline/mirror_scan.md"
+  },
+  {
+   "index": 182,
+   "name": "mirror_shape",
+   "domain": "pipeline",
+   "gated": false,
+   "repo": "gbt-mirror-shape",
+   "url": "https://github.com/gbtweilai-star/gbt-mirror-shape",
+   "atlas": "caps/pipeline/mirror_shape.md"
+  },
+  {
+   "index": 183,
+   "name": "mirror_simulate",
+   "domain": "pipeline",
+   "gated": false,
+   "repo": "gbt-mirror-simulate",
+   "url": "https://github.com/gbtweilai-star/gbt-mirror-simulate",
+   "atlas": "caps/pipeline/mirror_simulate.md"
+  },
+  {
+   "index": 184,
+   "name": "mirror_status",
+   "domain": "pipeline",
+   "gated": false,
+   "repo": "gbt-mirror-status",
+   "url": "https://github.com/gbtweilai-star/gbt-mirror-status",
+   "atlas": "caps/pipeline/mirror_status.md"
+  },
+  {
+   "index": 185,
+   "name": "one_key_deploy",
+   "domain": "pipeline",
+   "gated": false,
+   "repo": "gbt-one-key-deploy",
+   "url": "https://github.com/gbtweilai-star/gbt-one-key-deploy",
+   "atlas": "caps/pipeline/one_key_deploy.md"
+  },
+  {
+   "index": 186,
+   "name": "pipeline_rollback",
+   "domain": "pipeline",
+   "gated": false,
+   "repo": "gbt-pipeline-rollback",
+   "url": "https://github.com/gbtweilai-star/gbt-pipeline-rollback",
+   "atlas": "caps/pipeline/pipeline_rollback.md"
+  },
+  {
+   "index": 187,
+   "name": "pipeline_status",
+   "domain": "pipeline",
+   "gated": false,
+   "repo": "gbt-pipeline-status",
+   "url": "https://github.com/gbtweilai-star/gbt-pipeline-status",
+   "atlas": "caps/pipeline/pipeline_status.md"
+  },
+  {
+   "index": 188,
+   "name": "pipeline_submit",
+   "domain": "pipeline",
+   "gated": false,
+   "repo": "gbt-pipeline-submit",
+   "url": "https://github.com/gbtweilai-star/gbt-pipeline-submit",
+   "atlas": "caps/pipeline/pipeline_submit.md"
+  },
+  {
+   "index": 189,
+   "name": "pipeline_versions",
+   "domain": "pipeline",
+   "gated": false,
+   "repo": "gbt-pipeline-versions",
+   "url": "https://github.com/gbtweilai-star/gbt-pipeline-versions",
+   "atlas": "caps/pipeline/pipeline_versions.md"
+  },
+  {
+   "index": 190,
+   "name": "svc_inspect",
+   "domain": "pipeline",
+   "gated": false,
+   "repo": "gbt-svc-inspect",
+   "url": "https://github.com/gbtweilai-star/gbt-svc-inspect",
+   "atlas": "caps/pipeline/svc_inspect.md"
+  },
+  {
+   "index": 191,
+   "name": "platform_profile",
+   "domain": "project",
+   "gated": false,
+   "repo": "gbt-platform-profile",
+   "url": "https://github.com/gbtweilai-star/gbt-platform-profile",
+   "atlas": "caps/project/platform_profile.md"
+  },
+  {
+   "index": 192,
+   "name": "project_context",
+   "domain": "project",
+   "gated": false,
+   "repo": "gbt-project-context",
+   "url": "https://github.com/gbtweilai-star/gbt-project-context",
+   "atlas": "caps/project/project_context.md"
+  },
+  {
+   "index": 193,
+   "name": "book_skill",
+   "domain": "recon",
+   "gated": true,
+   "repo": "gbt-book-skill",
+   "url": "https://github.com/gbtweilai-star/gbt-book-skill",
+   "atlas": "caps/recon/book_skill.md"
+  },
+  {
+   "index": 194,
+   "name": "case_mine",
+   "domain": "recon",
+   "gated": false,
+   "repo": "gbt-case-mine",
+   "url": "https://github.com/gbtweilai-star/gbt-case-mine",
+   "atlas": "caps/recon/case_mine.md"
+  },
+  {
+   "index": 195,
+   "name": "film_intel",
+   "domain": "recon",
+   "gated": false,
+   "repo": "gbt-film-intel",
+   "url": "https://github.com/gbtweilai-star/gbt-film-intel",
+   "atlas": "caps/recon/film_intel.md"
+  },
+  {
+   "index": 196,
+   "name": "know_map",
+   "domain": "recon",
+   "gated": true,
+   "repo": "gbt-know-map",
+   "url": "https://github.com/gbtweilai-star/gbt-know-map",
+   "atlas": "caps/recon/know_map.md"
+  },
+  {
+   "index": 197,
+   "name": "music_intel",
+   "domain": "recon",
+   "gated": false,
+   "repo": "gbt-music-intel",
+   "url": "https://github.com/gbtweilai-star/gbt-music-intel",
+   "atlas": "caps/recon/music_intel.md"
+  },
+  {
+   "index": 198,
+   "name": "osint_scan",
+   "domain": "recon",
+   "gated": false,
+   "repo": "gbt-osint-scan",
+   "url": "https://github.com/gbtweilai-star/gbt-osint-scan",
+   "atlas": "caps/recon/osint_scan.md"
+  },
+  {
+   "index": 199,
+   "name": "rea_reverse",
+   "domain": "recon",
+   "gated": false,
+   "repo": "gbt-rea-reverse",
+   "url": "https://github.com/gbtweilai-star/gbt-rea-reverse",
+   "atlas": "caps/recon/rea_reverse.md"
+  },
+  {
+   "index": 200,
+   "name": "recon_distill",
+   "domain": "recon",
+   "gated": false,
+   "repo": "gbt-recon-distill",
+   "url": "https://github.com/gbtweilai-star/gbt-recon-distill",
+   "atlas": "caps/recon/recon_distill.md"
+  },
+  {
+   "index": 201,
+   "name": "scrapling",
+   "domain": "recon",
+   "gated": false,
+   "repo": "gbt-scrapling",
+   "url": "https://github.com/gbtweilai-star/gbt-scrapling",
+   "atlas": "caps/recon/scrapling.md"
+  },
+  {
+   "index": 202,
+   "name": "skill_forge",
+   "domain": "recon",
+   "gated": true,
+   "repo": "gbt-skill-forge",
+   "url": "https://github.com/gbtweilai-star/gbt-skill-forge",
+   "atlas": "caps/recon/skill_forge.md"
+  },
+  {
+   "index": 203,
+   "name": "spider_ops",
+   "domain": "recon",
+   "gated": true,
+   "repo": "gbt-spider-ops",
+   "url": "https://github.com/gbtweilai-star/gbt-spider-ops",
+   "atlas": "caps/recon/spider_ops.md"
+  },
+  {
+   "index": 204,
+   "name": "tentacle_learn",
+   "domain": "recon",
+   "gated": true,
+   "repo": "gbt-tentacle-learn",
+   "url": "https://github.com/gbtweilai-star/gbt-tentacle-learn",
+   "atlas": "caps/recon/tentacle_learn.md"
+  },
+  {
+   "index": 205,
+   "name": "topic_watch",
+   "domain": "recon",
+   "gated": false,
+   "repo": "gbt-topic-watch",
+   "url": "https://github.com/gbtweilai-star/gbt-topic-watch",
+   "atlas": "caps/recon/topic_watch.md"
+  },
+  {
+   "index": 206,
+   "name": "topic_web",
+   "domain": "recon",
+   "gated": true,
+   "repo": "gbt-topic-web",
+   "url": "https://github.com/gbtweilai-star/gbt-topic-web",
+   "atlas": "caps/recon/topic_web.md"
+  },
+  {
+   "index": 207,
+   "name": "trend_watch",
+   "domain": "recon",
+   "gated": false,
+   "repo": "gbt-trend-watch",
+   "url": "https://github.com/gbtweilai-star/gbt-trend-watch",
+   "atlas": "caps/recon/trend_watch.md"
+  },
+  {
+   "index": 208,
+   "name": "verification_watch",
+   "domain": "recon",
+   "gated": false,
+   "repo": "gbt-verification-watch",
+   "url": "https://github.com/gbtweilai-star/gbt-verification-watch",
+   "atlas": "caps/recon/verification_watch.md"
+  },
+  {
+   "index": 209,
+   "name": "video_intel",
+   "domain": "recon",
+   "gated": false,
+   "repo": "gbt-video-intel",
+   "url": "https://github.com/gbtweilai-star/gbt-video-intel",
+   "atlas": "caps/recon/video_intel.md"
+  },
+  {
+   "index": 210,
+   "name": "asset_vault_freeze",
+   "domain": "security",
+   "gated": false,
+   "repo": "gbt-asset-vault-freeze",
+   "url": "https://github.com/gbtweilai-star/gbt-asset-vault-freeze",
+   "atlas": "caps/security/asset_vault_freeze.md"
+  },
+  {
+   "index": 211,
+   "name": "code_audit",
+   "domain": "security",
+   "gated": false,
+   "repo": "gbt-code-audit",
+   "url": "https://github.com/gbtweilai-star/gbt-code-audit",
+   "atlas": "caps/security/code_audit.md"
+  },
+  {
+   "index": 212,
+   "name": "credential_steal",
+   "domain": "security",
+   "gated": true,
+   "repo": "gbt-credential-steal",
+   "url": "https://github.com/gbtweilai-star/gbt-credential-steal",
+   "atlas": "caps/security/credential_steal.md"
+  },
+  {
+   "index": 213,
+   "name": "data_hijack",
+   "domain": "security",
+   "gated": true,
+   "repo": "gbt-data-hijack",
+   "url": "https://github.com/gbtweilai-star/gbt-data-hijack",
+   "atlas": "caps/security/data_hijack.md"
+  },
+  {
+   "index": 214,
+   "name": "device_takeover",
+   "domain": "security",
+   "gated": true,
+   "repo": "gbt-device-takeover",
+   "url": "https://github.com/gbtweilai-star/gbt-device-takeover",
+   "atlas": "caps/security/device_takeover.md"
+  },
+  {
+   "index": 215,
+   "name": "event_ledger",
+   "domain": "security",
+   "gated": false,
+   "repo": "gbt-event-ledger",
+   "url": "https://github.com/gbtweilai-star/gbt-event-ledger",
+   "atlas": "caps/security/event_ledger.md"
+  },
+  {
+   "index": 216,
+   "name": "hook_enforcer",
+   "domain": "security",
+   "gated": false,
+   "repo": "gbt-hook-enforcer",
+   "url": "https://github.com/gbtweilai-star/gbt-hook-enforcer",
+   "atlas": "caps/security/hook_enforcer.md"
+  },
+  {
+   "index": 217,
+   "name": "install_selfcheck",
+   "domain": "security",
+   "gated": false,
+   "repo": "gbt-install-selfcheck",
+   "url": "https://github.com/gbtweilai-star/gbt-install-selfcheck",
+   "atlas": "caps/security/install_selfcheck.md"
+  },
+  {
+   "index": 218,
+   "name": "keylogger",
+   "domain": "security",
+   "gated": true,
+   "repo": "gbt-keylogger",
+   "url": "https://github.com/gbtweilai-star/gbt-keylogger",
+   "atlas": "caps/security/keylogger.md"
+  },
+  {
+   "index": 219,
+   "name": "llm_redteam",
+   "domain": "security",
+   "gated": false,
+   "repo": "gbt-llm-redteam",
+   "url": "https://github.com/gbtweilai-star/gbt-llm-redteam",
+   "atlas": "caps/security/llm_redteam.md"
+  },
+  {
+   "index": 220,
+   "name": "offense_ops",
+   "domain": "security",
+   "gated": true,
+   "repo": "gbt-offense-ops",
+   "url": "https://github.com/gbtweilai-star/gbt-offense-ops",
+   "atlas": "caps/security/offense_ops.md"
+  },
+  {
+   "index": 221,
+   "name": "omission_detector",
+   "domain": "security",
+   "gated": false,
+   "repo": "gbt-omission-detector",
+   "url": "https://github.com/gbtweilai-star/gbt-omission-detector",
+   "atlas": "caps/security/omission_detector.md"
+  },
+  {
+   "index": 222,
+   "name": "onboarding_gate",
+   "domain": "security",
+   "gated": false,
+   "repo": "gbt-onboarding-gate",
+   "url": "https://github.com/gbtweilai-star/gbt-onboarding-gate",
+   "atlas": "caps/security/onboarding_gate.md"
+  },
+  {
+   "index": 223,
+   "name": "paywallbuster",
+   "domain": "security",
+   "gated": false,
+   "repo": "gbt-paywallbuster",
+   "url": "https://github.com/gbtweilai-star/gbt-paywallbuster",
+   "atlas": "caps/security/paywallbuster.md"
+  },
+  {
+   "index": 224,
+   "name": "penetrating_cross_scan",
+   "domain": "security",
+   "gated": false,
+   "repo": "gbt-penetrating-cross-scan",
+   "url": "https://github.com/gbtweilai-star/gbt-penetrating-cross-scan",
+   "atlas": "caps/security/penetrating_cross_scan.md"
+  },
+  {
+   "index": 225,
+   "name": "pentest",
+   "domain": "security",
+   "gated": true,
+   "repo": "gbt-pentest",
+   "url": "https://github.com/gbtweilai-star/gbt-pentest",
+   "atlas": "caps/security/pentest.md"
+  },
+  {
+   "index": 226,
+   "name": "pentest_distill",
+   "domain": "security",
+   "gated": false,
+   "repo": "gbt-pentest-distill",
+   "url": "https://github.com/gbtweilai-star/gbt-pentest-distill",
+   "atlas": "caps/security/pentest_distill.md"
+  },
+  {
+   "index": 227,
+   "name": "policy_delta",
+   "domain": "security",
+   "gated": false,
+   "repo": "gbt-policy-delta",
+   "url": "https://github.com/gbtweilai-star/gbt-policy-delta",
+   "atlas": "caps/security/policy_delta.md"
+  },
+  {
+   "index": 228,
+   "name": "redteam_recon",
+   "domain": "security",
+   "gated": true,
+   "repo": "gbt-redteam-recon",
+   "url": "https://github.com/gbtweilai-star/gbt-redteam-recon",
+   "atlas": "caps/security/redteam_recon.md"
+  },
+  {
+   "index": 229,
+   "name": "remote_domain",
+   "domain": "security",
+   "gated": true,
+   "repo": "gbt-remote-domain",
+   "url": "https://github.com/gbtweilai-star/gbt-remote-domain",
+   "atlas": "caps/security/remote_domain.md"
+  },
+  {
+   "index": 230,
+   "name": "review_gate",
+   "domain": "security",
+   "gated": false,
+   "repo": "gbt-review-gate",
+   "url": "https://github.com/gbtweilai-star/gbt-review-gate",
+   "atlas": "caps/security/review_gate.md"
+  },
+  {
+   "index": 231,
+   "name": "screen_sniff",
+   "domain": "security",
+   "gated": true,
+   "repo": "gbt-screen-sniff",
+   "url": "https://github.com/gbtweilai-star/gbt-screen-sniff",
+   "atlas": "caps/security/screen_sniff.md"
+  },
+  {
+   "index": 232,
+   "name": "sec_chain",
+   "domain": "security",
+   "gated": false,
+   "repo": "gbt-sec-chain",
+   "url": "https://github.com/gbtweilai-star/gbt-sec-chain",
+   "atlas": "caps/security/sec_chain.md"
+  },
+  {
+   "index": 233,
+   "name": "sec_defenses",
+   "domain": "security",
+   "gated": false,
+   "repo": "gbt-sec-defenses",
+   "url": "https://github.com/gbtweilai-star/gbt-sec-defenses",
+   "atlas": "caps/security/sec_defenses.md"
+  },
+  {
+   "index": 234,
+   "name": "sec_llm",
+   "domain": "security",
+   "gated": false,
+   "repo": "gbt-sec-llm",
+   "url": "https://github.com/gbtweilai-star/gbt-sec-llm",
+   "atlas": "caps/security/sec_llm.md"
+  },
+  {
+   "index": 235,
+   "name": "sec_scan",
+   "domain": "security",
+   "gated": false,
+   "repo": "gbt-sec-scan",
+   "url": "https://github.com/gbtweilai-star/gbt-sec-scan",
+   "atlas": "caps/security/sec_scan.md"
+  },
+  {
+   "index": 236,
+   "name": "sec_surface",
+   "domain": "security",
+   "gated": false,
+   "repo": "gbt-sec-surface",
+   "url": "https://github.com/gbtweilai-star/gbt-sec-surface",
+   "atlas": "caps/security/sec_surface.md"
+  },
+  {
+   "index": 237,
+   "name": "sec_sweeper",
+   "domain": "security",
+   "gated": false,
+   "repo": "gbt-sec-sweeper",
+   "url": "https://github.com/gbtweilai-star/gbt-sec-sweeper",
+   "atlas": "caps/security/sec_sweeper.md"
+  },
+  {
+   "index": 238,
+   "name": "social_eng",
+   "domain": "security",
+   "gated": false,
+   "repo": "gbt-social-eng",
+   "url": "https://github.com/gbtweilai-star/gbt-social-eng",
+   "atlas": "caps/security/social_eng.md"
+  },
+  {
+   "index": 239,
+   "name": "auto_publish",
+   "domain": "social",
+   "gated": false,
+   "repo": "gbt-auto-publish",
+   "url": "https://github.com/gbtweilai-star/gbt-auto-publish",
+   "atlas": "caps/social/auto_publish.md"
+  },
+  {
+   "index": 240,
+   "name": "eigenflux",
+   "domain": "social",
+   "gated": false,
+   "repo": "gbt-eigenflux",
+   "url": "https://github.com/gbtweilai-star/gbt-eigenflux",
+   "atlas": "caps/social/eigenflux.md"
+  },
+  {
+   "index": 241,
+   "name": "action_gate",
+   "domain": "system",
+   "gated": false,
+   "repo": "gbt-action-gate",
+   "url": "https://github.com/gbtweilai-star/gbt-action-gate",
+   "atlas": "caps/system/action_gate.md"
+  },
+  {
+   "index": 242,
+   "name": "agent_console",
+   "domain": "system",
+   "gated": false,
+   "repo": "gbt-agent-console",
+   "url": "https://github.com/gbtweilai-star/gbt-agent-console",
+   "atlas": "caps/system/agent_console.md"
+  },
+  {
+   "index": 243,
+   "name": "agent_control",
+   "domain": "system",
+   "gated": false,
+   "repo": "gbt-agent-control",
+   "url": "https://github.com/gbtweilai-star/gbt-agent-control",
+   "atlas": "caps/system/agent_control.md"
+  },
+  {
+   "index": 244,
+   "name": "agent_rig",
+   "domain": "system",
+   "gated": false,
+   "repo": "gbt-agent-rig",
+   "url": "https://github.com/gbtweilai-star/gbt-agent-rig",
+   "atlas": "caps/system/agent_rig.md"
+  },
+  {
+   "index": 245,
+   "name": "alerts",
+   "domain": "system",
+   "gated": false,
+   "repo": "gbt-alerts",
+   "url": "https://github.com/gbtweilai-star/gbt-alerts",
+   "atlas": "caps/system/alerts.md"
+  },
+  {
+   "index": 246,
+   "name": "answer_shaper",
+   "domain": "system",
+   "gated": false,
+   "repo": "gbt-answer-shaper",
+   "url": "https://github.com/gbtweilai-star/gbt-answer-shaper",
+   "atlas": "caps/system/answer_shaper.md"
+  },
+  {
+   "index": 247,
+   "name": "asset_index",
+   "domain": "system",
+   "gated": false,
+   "repo": "gbt-asset-index",
+   "url": "https://github.com/gbtweilai-star/gbt-asset-index",
+   "atlas": "caps/system/asset_index.md"
+  },
+  {
+   "index": 248,
+   "name": "auth_gate_status",
+   "domain": "system",
+   "gated": false,
+   "repo": "gbt-auth-gate-status",
+   "url": "https://github.com/gbtweilai-star/gbt-auth-gate-status",
+   "atlas": "caps/system/auth_gate_status.md"
+  },
+  {
+   "index": 249,
+   "name": "cap_tags",
+   "domain": "system",
+   "gated": false,
+   "repo": "gbt-cap-tags",
+   "url": "https://github.com/gbtweilai-star/gbt-cap-tags",
+   "atlas": "caps/system/cap_tags.md"
+  },
+  {
+   "index": 250,
+   "name": "caps_called_audit",
+   "domain": "system",
+   "gated": false,
+   "repo": "gbt-caps-called-audit",
+   "url": "https://github.com/gbtweilai-star/gbt-caps-called-audit",
+   "atlas": "caps/system/caps_called_audit.md"
+  },
+  {
+   "index": 251,
+   "name": "console_hub",
+   "domain": "system",
+   "gated": false,
+   "repo": "gbt-console-hub",
+   "url": "https://github.com/gbtweilai-star/gbt-console-hub",
+   "atlas": "caps/system/console_hub.md"
+  },
+  {
+   "index": 252,
+   "name": "context_vault",
+   "domain": "system",
+   "gated": false,
+   "repo": "gbt-context-vault",
+   "url": "https://github.com/gbtweilai-star/gbt-context-vault",
+   "atlas": "caps/system/context_vault.md"
+  },
+  {
+   "index": 253,
+   "name": "coverage_auditor",
+   "domain": "system",
+   "gated": false,
+   "repo": "gbt-coverage-auditor",
+   "url": "https://github.com/gbtweilai-star/gbt-coverage-auditor",
+   "atlas": "caps/system/coverage_auditor.md"
+  },
+  {
+   "index": 254,
+   "name": "cross_scan",
+   "domain": "system",
+   "gated": false,
+   "repo": "gbt-cross-scan",
+   "url": "https://github.com/gbtweilai-star/gbt-cross-scan",
+   "atlas": "caps/system/cross_scan.md"
+  },
+  {
+   "index": 255,
+   "name": "delivery_gate",
+   "domain": "system",
+   "gated": true,
+   "repo": "gbt-delivery-gate",
+   "url": "https://github.com/gbtweilai-star/gbt-delivery-gate",
+   "atlas": "caps/system/delivery_gate.md"
+  },
+  {
+   "index": 256,
+   "name": "detail_habit",
+   "domain": "system",
+   "gated": false,
+   "repo": "gbt-detail-habit",
+   "url": "https://github.com/gbtweilai-star/gbt-detail-habit",
+   "atlas": "caps/system/detail_habit.md"
+  },
+  {
+   "index": 257,
+   "name": "energy_pool",
+   "domain": "system",
+   "gated": false,
+   "repo": "gbt-energy-pool",
+   "url": "https://github.com/gbtweilai-star/gbt-energy-pool",
+   "atlas": "caps/system/energy_pool.md"
+  },
+  {
+   "index": 258,
+   "name": "figure_gate",
+   "domain": "system",
+   "gated": true,
+   "repo": "gbt-figure-gate",
+   "url": "https://github.com/gbtweilai-star/gbt-figure-gate",
+   "atlas": "caps/system/figure_gate.md"
+  },
+  {
+   "index": 259,
+   "name": "file_hygiene",
+   "domain": "system",
+   "gated": false,
+   "repo": "gbt-file-hygiene",
+   "url": "https://github.com/gbtweilai-star/gbt-file-hygiene",
+   "atlas": "caps/system/file_hygiene.md"
+  },
+  {
+   "index": 260,
+   "name": "god_view",
+   "domain": "system",
+   "gated": false,
+   "repo": "gbt-god-view",
+   "url": "https://github.com/gbtweilai-star/gbt-god-view",
+   "atlas": "caps/system/god_view.md"
+  },
+  {
+   "index": 261,
+   "name": "gods_eye",
+   "domain": "system",
+   "gated": false,
+   "repo": "gbt-gods-eye",
+   "url": "https://github.com/gbtweilai-star/gbt-gods-eye",
+   "atlas": "caps/system/gods_eye.md"
+  },
+  {
+   "index": 262,
+   "name": "growth_hooks",
+   "domain": "system",
+   "gated": false,
+   "repo": "gbt-growth-hooks",
+   "url": "https://github.com/gbtweilai-star/gbt-growth-hooks",
+   "atlas": "caps/system/growth_hooks.md"
+  },
+  {
+   "index": 263,
+   "name": "handoff",
+   "domain": "system",
+   "gated": false,
+   "repo": "gbt-handoff",
+   "url": "https://github.com/gbtweilai-star/gbt-handoff",
+   "atlas": "caps/system/handoff.md"
+  },
+  {
+   "index": 264,
+   "name": "health",
+   "domain": "system",
+   "gated": false,
+   "repo": "gbt-health",
+   "url": "https://github.com/gbtweilai-star/gbt-health",
+   "atlas": "caps/system/health.md"
+  },
+  {
+   "index": 265,
+   "name": "hook_registry",
+   "domain": "system",
+   "gated": false,
+   "repo": "gbt-hook-registry",
+   "url": "https://github.com/gbtweilai-star/gbt-hook-registry",
+   "atlas": "caps/system/hook_registry.md"
+  },
+  {
+   "index": 266,
+   "name": "impact_check",
+   "domain": "system",
+   "gated": false,
+   "repo": "gbt-impact-check",
+   "url": "https://github.com/gbtweilai-star/gbt-impact-check",
+   "atlas": "caps/system/impact_check.md"
+  },
+  {
+   "index": 267,
+   "name": "inventory",
+   "domain": "system",
+   "gated": false,
+   "repo": "gbt-inventory",
+   "url": "https://github.com/gbtweilai-star/gbt-inventory",
+   "atlas": "caps/system/inventory.md"
+  },
+  {
+   "index": 268,
+   "name": "ledger_note",
+   "domain": "system",
+   "gated": false,
+   "repo": "gbt-ledger-note",
+   "url": "https://github.com/gbtweilai-star/gbt-ledger-note",
+   "atlas": "caps/system/ledger_note.md"
+  },
+  {
+   "index": 269,
+   "name": "orchestration_kernel",
+   "domain": "system",
+   "gated": false,
+   "repo": "gbt-orchestration-kernel",
+   "url": "https://github.com/gbtweilai-star/gbt-orchestration-kernel",
+   "atlas": "caps/system/orchestration_kernel.md"
+  },
+  {
+   "index": 270,
+   "name": "page_scan",
+   "domain": "system",
+   "gated": false,
+   "repo": "gbt-page-scan",
+   "url": "https://github.com/gbtweilai-star/gbt-page-scan",
+   "atlas": "caps/system/page_scan.md"
+  },
+  {
+   "index": 271,
+   "name": "project_drift",
+   "domain": "system",
+   "gated": false,
+   "repo": "gbt-project-drift",
+   "url": "https://github.com/gbtweilai-star/gbt-project-drift",
+   "atlas": "caps/system/project_drift.md"
+  },
+  {
+   "index": 272,
+   "name": "room_space",
+   "domain": "system",
+   "gated": true,
+   "repo": "gbt-room-space",
+   "url": "https://github.com/gbtweilai-star/gbt-room-space",
+   "atlas": "caps/system/room_space.md"
+  },
+  {
+   "index": 273,
+   "name": "root_fix",
+   "domain": "system",
+   "gated": false,
+   "repo": "gbt-root-fix",
+   "url": "https://github.com/gbtweilai-star/gbt-root-fix",
+   "atlas": "caps/system/root_fix.md"
+  },
+  {
+   "index": 274,
+   "name": "scan_cap",
+   "domain": "system",
+   "gated": true,
+   "repo": "gbt-scan-cap",
+   "url": "https://github.com/gbtweilai-star/gbt-scan-cap",
+   "atlas": "caps/system/scan_cap.md"
+  },
+  {
+   "index": 275,
+   "name": "selfscan",
+   "domain": "system",
+   "gated": false,
+   "repo": "gbt-selfscan",
+   "url": "https://github.com/gbtweilai-star/gbt-selfscan",
+   "atlas": "caps/system/selfscan.md"
+  },
+  {
+   "index": 276,
+   "name": "shared_resources",
+   "domain": "system",
+   "gated": false,
+   "repo": "gbt-shared-resources",
+   "url": "https://github.com/gbtweilai-star/gbt-shared-resources",
+   "atlas": "caps/system/shared_resources.md"
+  },
+  {
+   "index": 277,
+   "name": "signature_guard",
+   "domain": "system",
+   "gated": false,
+   "repo": "gbt-signature-guard",
+   "url": "https://github.com/gbtweilai-star/gbt-signature-guard",
+   "atlas": "caps/system/signature_guard.md"
+  },
+  {
+   "index": 278,
+   "name": "skill_watch",
+   "domain": "system",
+   "gated": false,
+   "repo": "gbt-skill-watch",
+   "url": "https://github.com/gbtweilai-star/gbt-skill-watch",
+   "atlas": "caps/system/skill_watch.md"
+  },
+  {
+   "index": 279,
+   "name": "slim_profile",
+   "domain": "system",
+   "gated": false,
+   "repo": "gbt-slim-profile",
+   "url": "https://github.com/gbtweilai-star/gbt-slim-profile",
+   "atlas": "caps/system/slim_profile.md"
+  },
+  {
+   "index": 280,
+   "name": "spend_guard",
+   "domain": "system",
+   "gated": false,
+   "repo": "gbt-spend-guard",
+   "url": "https://github.com/gbtweilai-star/gbt-spend-guard",
+   "atlas": "caps/system/spend_guard.md"
+  },
+  {
+   "index": 281,
+   "name": "surface_bind",
+   "domain": "system",
+   "gated": false,
+   "repo": "gbt-surface-bind",
+   "url": "https://github.com/gbtweilai-star/gbt-surface-bind",
+   "atlas": "caps/system/surface_bind.md"
+  },
+  {
+   "index": 282,
+   "name": "task_manager",
+   "domain": "system",
+   "gated": false,
+   "repo": "gbt-task-manager",
+   "url": "https://github.com/gbtweilai-star/gbt-task-manager",
+   "atlas": "caps/system/task_manager.md"
+  },
+  {
+   "index": 283,
+   "name": "tentacle_arm",
+   "domain": "system",
+   "gated": false,
+   "repo": "gbt-tentacle-arm",
+   "url": "https://github.com/gbtweilai-star/gbt-tentacle-arm",
+   "atlas": "caps/system/tentacle_arm.md"
+  },
+  {
+   "index": 284,
+   "name": "tentacle_bind",
+   "domain": "system",
+   "gated": false,
+   "repo": "gbt-tentacle-bind",
+   "url": "https://github.com/gbtweilai-star/gbt-tentacle-bind",
+   "atlas": "caps/system/tentacle_bind.md"
+  },
+  {
+   "index": 285,
+   "name": "tentacle_cognition",
+   "domain": "system",
+   "gated": false,
+   "repo": "gbt-tentacle-cognition",
+   "url": "https://github.com/gbtweilai-star/gbt-tentacle-cognition",
+   "atlas": "caps/system/tentacle_cognition.md"
+  },
+  {
+   "index": 286,
+   "name": "theme_cap",
+   "domain": "system",
+   "gated": true,
+   "repo": "gbt-theme-cap",
+   "url": "https://github.com/gbtweilai-star/gbt-theme-cap",
+   "atlas": "caps/system/theme_cap.md"
+  },
+  {
+   "index": 287,
+   "name": "trace_store",
+   "domain": "system",
+   "gated": false,
+   "repo": "gbt-trace-store",
+   "url": "https://github.com/gbtweilai-star/gbt-trace-store",
+   "atlas": "caps/system/trace_store.md"
+  },
+  {
+   "index": 288,
+   "name": "truth_scan",
+   "domain": "system",
+   "gated": false,
+   "repo": "gbt-truth-scan",
+   "url": "https://github.com/gbtweilai-star/gbt-truth-scan",
+   "atlas": "caps/system/truth_scan.md"
+  },
+  {
+   "index": 289,
+   "name": "ux_doctrine",
+   "domain": "system",
+   "gated": false,
+   "repo": "gbt-ux-doctrine",
+   "url": "https://github.com/gbtweilai-star/gbt-ux-doctrine",
+   "atlas": "caps/system/ux_doctrine.md"
+  },
+  {
+   "index": 290,
+   "name": "wave_probe",
+   "domain": "system",
+   "gated": false,
+   "repo": "gbt-wave-probe",
+   "url": "https://github.com/gbtweilai-star/gbt-wave-probe",
+   "atlas": "caps/system/wave_probe.md"
+  },
+  {
+   "index": 291,
+   "name": "welcome",
+   "domain": "system",
+   "gated": false,
+   "repo": "gbt-welcome",
+   "url": "https://github.com/gbtweilai-star/gbt-welcome",
+   "atlas": "caps/system/welcome.md"
+  },
+  {
+   "index": 292,
+   "name": "agency_tentacles",
+   "domain": "tentacle",
+   "gated": false,
+   "repo": "gbt-agency-tentacles",
+   "url": "https://github.com/gbtweilai-star/gbt-agency-tentacles",
+   "atlas": "caps/tentacle/agency_tentacles.md"
+  },
+  {
+   "index": 293,
+   "name": "desktop_commander",
+   "domain": "tentacle",
+   "gated": false,
+   "repo": "gbt-desktop-commander",
+   "url": "https://github.com/gbtweilai-star/gbt-desktop-commander",
+   "atlas": "caps/tentacle/desktop_commander.md"
+  },
+  {
+   "index": 294,
+   "name": "desktop_distill",
+   "domain": "tentacle",
+   "gated": false,
+   "repo": "gbt-desktop-distill",
+   "url": "https://github.com/gbtweilai-star/gbt-desktop-distill",
+   "atlas": "caps/tentacle/desktop_distill.md"
+  },
+  {
+   "index": 295,
+   "name": "express_direct",
+   "domain": "tentacle",
+   "gated": false,
+   "repo": "gbt-express-direct",
+   "url": "https://github.com/gbtweilai-star/gbt-express-direct",
+   "atlas": "caps/tentacle/express_direct.md"
+  },
+  {
+   "index": 296,
+   "name": "long_run_supervisor",
+   "domain": "tentacle",
+   "gated": false,
+   "repo": "gbt-long-run-supervisor",
+   "url": "https://github.com/gbtweilai-star/gbt-long-run-supervisor",
+   "atlas": "caps/tentacle/long_run_supervisor.md"
+  },
+  {
+   "index": 297,
+   "name": "mcp_call",
+   "domain": "tentacle",
+   "gated": false,
+   "repo": "gbt-mcp-call",
+   "url": "https://github.com/gbtweilai-star/gbt-mcp-call",
+   "atlas": "caps/tentacle/mcp_call.md"
+  },
+  {
+   "index": 298,
+   "name": "mcp_connect",
+   "domain": "tentacle",
+   "gated": false,
+   "repo": "gbt-mcp-connect",
+   "url": "https://github.com/gbtweilai-star/gbt-mcp-connect",
+   "atlas": "caps/tentacle/mcp_connect.md"
+  },
+  {
+   "index": 299,
+   "name": "mcp_tools",
+   "domain": "tentacle",
+   "gated": false,
+   "repo": "gbt-mcp-tools",
+   "url": "https://github.com/gbtweilai-star/gbt-mcp-tools",
+   "atlas": "caps/tentacle/mcp_tools.md"
+  },
+  {
+   "index": 300,
+   "name": "omarchy_bridge",
+   "domain": "tentacle",
+   "gated": true,
+   "repo": "gbt-omarchy-bridge",
+   "url": "https://github.com/gbtweilai-star/gbt-omarchy-bridge",
+   "atlas": "caps/tentacle/omarchy_bridge.md"
+  },
+  {
+   "index": 301,
+   "name": "omni_web",
+   "domain": "tentacle",
+   "gated": true,
+   "repo": "gbt-omni-web",
+   "url": "https://github.com/gbtweilai-star/gbt-omni-web",
+   "atlas": "caps/tentacle/omni_web.md"
+  },
+  {
+   "index": 302,
+   "name": "remote_confinement",
+   "domain": "tentacle",
+   "gated": true,
+   "repo": "gbt-remote-confinement",
+   "url": "https://github.com/gbtweilai-star/gbt-remote-confinement",
+   "atlas": "caps/tentacle/remote_confinement.md"
+  },
+  {
+   "index": 303,
+   "name": "tentacle",
+   "domain": "tentacle",
+   "gated": false,
+   "repo": "gbt-tentacle",
+   "url": "https://github.com/gbtweilai-star/gbt-tentacle",
+   "atlas": "caps/tentacle/tentacle.md"
+  },
+  {
+   "index": 304,
+   "name": "tentacle_equip",
+   "domain": "tentacle",
+   "gated": true,
+   "repo": "gbt-tentacle-equip",
+   "url": "https://github.com/gbtweilai-star/gbt-tentacle-equip",
+   "atlas": "caps/tentacle/tentacle_equip.md"
+  },
+  {
+   "index": 305,
+   "name": "tentacle_manifest",
+   "domain": "tentacle",
+   "gated": false,
+   "repo": "gbt-tentacle-manifest",
+   "url": "https://github.com/gbtweilai-star/gbt-tentacle-manifest",
+   "atlas": "caps/tentacle/tentacle_manifest.md"
+  },
+  {
+   "index": 306,
+   "name": "tentacle_pipeline",
+   "domain": "tentacle",
+   "gated": false,
+   "repo": "gbt-tentacle-pipeline",
+   "url": "https://github.com/gbtweilai-star/gbt-tentacle-pipeline",
+   "atlas": "caps/tentacle/tentacle_pipeline.md"
+  },
+  {
+   "index": 307,
+   "name": "tentacle_scale",
+   "domain": "tentacle",
+   "gated": false,
+   "repo": "gbt-tentacle-scale",
+   "url": "https://github.com/gbtweilai-star/gbt-tentacle-scale",
+   "atlas": "caps/tentacle/tentacle_scale.md"
+  },
+  {
+   "index": 308,
+   "name": "tentacle_status",
+   "domain": "tentacle",
+   "gated": false,
+   "repo": "gbt-tentacle-status",
+   "url": "https://github.com/gbtweilai-star/gbt-tentacle-status",
+   "atlas": "caps/tentacle/tentacle_status.md"
+  },
+  {
+   "index": 309,
+   "name": "tool_bay",
+   "domain": "tentacle",
+   "gated": true,
+   "repo": "gbt-tool-bay",
+   "url": "https://github.com/gbtweilai-star/gbt-tool-bay",
+   "atlas": "caps/tentacle/tool_bay.md"
+  },
+  {
+   "index": 310,
+   "name": "awesome_tools_index",
+   "domain": "tools",
+   "gated": false,
+   "repo": "gbt-awesome-tools-index",
+   "url": "https://github.com/gbtweilai-star/gbt-awesome-tools-index",
+   "atlas": "caps/tools/awesome_tools_index.md"
+  },
+  {
+   "index": 311,
+   "name": "capability_net",
+   "domain": "tools",
+   "gated": false,
+   "repo": "gbt-capability-net",
+   "url": "https://github.com/gbtweilai-star/gbt-capability-net",
+   "atlas": "caps/tools/capability_net.md"
+  },
+  {
+   "index": 312,
+   "name": "code_patch",
+   "domain": "tools",
+   "gated": true,
+   "repo": "gbt-code-patch",
+   "url": "https://github.com/gbtweilai-star/gbt-code-patch",
+   "atlas": "caps/tools/code_patch.md"
+  },
+  {
+   "index": 313,
+   "name": "freebuff_term",
+   "domain": "tools",
+   "gated": false,
+   "repo": "gbt-freebuff-term",
+   "url": "https://github.com/gbtweilai-star/gbt-freebuff-term",
+   "atlas": "caps/tools/freebuff_term.md"
+  },
+  {
+   "index": 314,
+   "name": "git_read",
+   "domain": "tools",
+   "gated": false,
+   "repo": "gbt-git-read",
+   "url": "https://github.com/gbtweilai-star/gbt-git-read",
+   "atlas": "caps/tools/git_read.md"
+  },
+  {
+   "index": 315,
+   "name": "git_write",
+   "domain": "tools",
+   "gated": true,
+   "repo": "gbt-git-write",
+   "url": "https://github.com/gbtweilai-star/gbt-git-write",
+   "atlas": "caps/tools/git_write.md"
+  },
+  {
+   "index": 316,
+   "name": "projection_card",
+   "domain": "tools",
+   "gated": false,
+   "repo": "gbt-projection-card",
+   "url": "https://github.com/gbtweilai-star/gbt-projection-card",
+   "atlas": "caps/tools/projection_card.md"
+  },
+  {
+   "index": 317,
+   "name": "pulse_direct",
+   "domain": "tools",
+   "gated": false,
+   "repo": "gbt-pulse-direct",
+   "url": "https://github.com/gbtweilai-star/gbt-pulse-direct",
+   "atlas": "caps/tools/pulse_direct.md"
+  },
+  {
+   "index": 318,
+   "name": "repo_publish",
+   "domain": "tools",
+   "gated": false,
+   "repo": "gbt-repo-publish",
+   "url": "https://github.com/gbtweilai-star/gbt-repo-publish",
+   "atlas": "caps/tools/repo_publish.md"
+  },
+  {
+   "index": 319,
+   "name": "actioncam",
+   "domain": "video",
+   "gated": true,
+   "repo": "gbt-actioncam",
+   "url": "https://github.com/gbtweilai-star/gbt-actioncam",
+   "atlas": "caps/video/actioncam.md"
+  },
+  {
+   "index": 320,
+   "name": "audio_extract",
+   "domain": "video",
+   "gated": true,
+   "repo": "gbt-audio-extract",
+   "url": "https://github.com/gbtweilai-star/gbt-audio-extract",
+   "atlas": "caps/video/audio_extract.md"
+  },
+  {
+   "index": 321,
+   "name": "audio_mix",
+   "domain": "video",
+   "gated": true,
+   "repo": "gbt-audio-mix",
+   "url": "https://github.com/gbtweilai-star/gbt-audio-mix",
+   "atlas": "caps/video/audio_mix.md"
+  },
+  {
+   "index": 322,
+   "name": "digital_human",
+   "domain": "video",
+   "gated": false,
+   "repo": "gbt-digital-human",
+   "url": "https://github.com/gbtweilai-star/gbt-digital-human",
+   "atlas": "caps/video/digital_human.md"
+  },
+  {
+   "index": 323,
+   "name": "edit_pipeline",
+   "domain": "video",
+   "gated": true,
+   "repo": "gbt-edit-pipeline",
+   "url": "https://github.com/gbtweilai-star/gbt-edit-pipeline",
+   "atlas": "caps/video/edit_pipeline.md"
+  },
+  {
+   "index": 324,
+   "name": "h3_video_gen",
+   "domain": "video",
+   "gated": false,
+   "repo": "gbt-h3-video-gen",
+   "url": "https://github.com/gbtweilai-star/gbt-h3-video-gen",
+   "atlas": "caps/video/h3_video_gen.md"
+  },
+  {
+   "index": 325,
+   "name": "libtv_skill",
+   "domain": "video",
+   "gated": false,
+   "repo": "gbt-libtv-skill",
+   "url": "https://github.com/gbtweilai-star/gbt-libtv-skill",
+   "atlas": "caps/video/libtv_skill.md"
+  },
+  {
+   "index": 326,
+   "name": "libtv_workflow",
+   "domain": "video",
+   "gated": false,
+   "repo": "gbt-libtv-workflow",
+   "url": "https://github.com/gbtweilai-star/gbt-libtv-workflow",
+   "atlas": "caps/video/libtv_workflow.md"
+  },
+  {
+   "index": 327,
+   "name": "look_grade",
+   "domain": "video",
+   "gated": true,
+   "repo": "gbt-look-grade",
+   "url": "https://github.com/gbtweilai-star/gbt-look-grade",
+   "atlas": "caps/video/look_grade.md"
+  },
+  {
+   "index": 328,
+   "name": "media_license",
+   "domain": "video",
+   "gated": true,
+   "repo": "gbt-media-license",
+   "url": "https://github.com/gbtweilai-star/gbt-media-license",
+   "atlas": "caps/video/media_license.md"
+  },
+  {
+   "index": 329,
+   "name": "media_pipeline",
+   "domain": "video",
+   "gated": false,
+   "repo": "gbt-media-pipeline",
+   "url": "https://github.com/gbtweilai-star/gbt-media-pipeline",
+   "atlas": "caps/video/media_pipeline.md"
+  },
+  {
+   "index": 330,
+   "name": "media_publish",
+   "domain": "video",
+   "gated": true,
+   "repo": "gbt-media-publish",
+   "url": "https://github.com/gbtweilai-star/gbt-media-publish",
+   "atlas": "caps/video/media_publish.md"
+  },
+  {
+   "index": 331,
+   "name": "media_run",
+   "domain": "video",
+   "gated": true,
+   "repo": "gbt-media-run",
+   "url": "https://github.com/gbtweilai-star/gbt-media-run",
+   "atlas": "caps/video/media_run.md"
+  },
+  {
+   "index": 332,
+   "name": "media_stamp",
+   "domain": "video",
+   "gated": true,
+   "repo": "gbt-media-stamp",
+   "url": "https://github.com/gbtweilai-star/gbt-media-stamp",
+   "atlas": "caps/video/media_stamp.md"
+  },
+  {
+   "index": 333,
+   "name": "vision",
+   "domain": "vision",
+   "gated": false,
+   "repo": "gbt-vision",
+   "url": "https://github.com/gbtweilai-star/gbt-vision",
+   "atlas": "caps/vision/vision.md"
+  },
+  {
+   "index": 334,
+   "name": "vision_grounding",
+   "domain": "vision",
+   "gated": false,
+   "repo": "gbt-vision-grounding",
+   "url": "https://github.com/gbtweilai-star/gbt-vision-grounding",
+   "atlas": "caps/vision/vision_grounding.md"
+  },
+  {
+   "index": 335,
+   "name": "vision_loop",
+   "domain": "vision",
+   "gated": true,
+   "repo": "gbt-vision-loop",
+   "url": "https://github.com/gbtweilai-star/gbt-vision-loop",
+   "atlas": "caps/vision/vision_loop.md"
+  },
+  {
+   "index": 336,
+   "name": "vision_print",
+   "domain": "vision",
+   "gated": false,
+   "repo": "gbt-vision-print",
+   "url": "https://github.com/gbtweilai-star/gbt-vision-print",
+   "atlas": "caps/vision/vision_print.md"
+  },
+  {
+   "index": 337,
+   "name": "vlx_flow",
+   "domain": "vision",
+   "gated": false,
+   "repo": "gbt-vlx-flow",
+   "url": "https://github.com/gbtweilai-star/gbt-vlx-flow",
+   "atlas": "caps/vision/vlx_flow.md"
+  },
+  {
+   "index": 338,
+   "name": "hf_voice",
+   "domain": "voice",
+   "gated": false,
+   "repo": "gbt-hf-voice",
+   "url": "https://github.com/gbtweilai-star/gbt-hf-voice",
+   "atlas": "caps/voice/hf_voice.md"
+  },
+  {
+   "index": 339,
+   "name": "voice",
+   "domain": "voice",
+   "gated": false,
+   "repo": "gbt-voice",
+   "url": "https://github.com/gbtweilai-star/gbt-voice",
+   "atlas": "caps/voice/voice.md"
+  },
+  {
+   "index": 340,
+   "name": "voice_orchestra",
+   "domain": "voice",
+   "gated": false,
+   "repo": "gbt-voice-orchestra",
+   "url": "https://github.com/gbtweilai-star/gbt-voice-orchestra",
+   "atlas": "caps/voice/voice_orchestra.md"
+  },
+  {
+   "index": 341,
+   "name": "voice_studio",
+   "domain": "voice",
+   "gated": false,
+   "repo": "gbt-voice-studio",
+   "url": "https://github.com/gbtweilai-star/gbt-voice-studio",
+   "atlas": "caps/voice/voice_studio.md"
+  }
+ ]
+}

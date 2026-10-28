@@ -60,8 +60,9 @@ labelled as derived.
 - **Not the implementation.** The bits are implemented by the upstream framework.
   This repo is the contract layer — the part you can read, diff, validate and
   publish without shipping 600 files of someone's application.
-- **Not 341 importable functions.** There is no `import gbt_caps; vision_loop()`.
-  See [why not one repository per capability](#why-not-one-repository-per-capability).
+- **Not 341 importable functions in one package.** `import gbt_caps` gives you the
+  index, not the bits. Every bit has its own repository — see
+  [the 341 repositories](REPOS.md) — and this repo is what keeps them honest.
 - **Not auto-generated slop.** The generator is 300 lines you can read, the tests
   fail if a page drifts from the data, and `--check` proves the tree reproduces
   byte-for-byte.
@@ -240,22 +241,31 @@ literal("dict(a=1)")          # LiteralError    ← calls are refused
 
 ---
 
-## Why not one repository per capability
+## One repository per capability
 
-341 repos with one file each is not open source, it is a directory listing. Three
-concrete reasons this repo is the shape it is:
+All 341 bits have their own repository now: **[REPOS.md](REPOS.md)** lists every
+one with its number, domain and gated flag, and [`repos.json`](repos.json) is the
+same list in machine-readable form.
 
-1. **Discoverability.** GitHub indexes repositories and topics, not directories
-   inside them. 341 near-empty repos would rank for nothing and trip spam
-   heuristics; one repo with 341 documented pages ranks for all of it.
-2. **Reviewability.** A change to the contract should be one diff a human can
-   read. Split across 341 repos it becomes 341 pull requests nobody will audit.
-3. **Truth maintenance.** The value here is `--check`: the pages *cannot* drift
-   from the data. That guarantee needs one tree and one generator.
+Each of those repos is a zero-dependency Python package containing the contract
+copied verbatim from this snapshot, a drift test that fails on a one-character
+change, `check()` / `run()`, a CLI, and a `Backend` protocol whose default stub
+reports `validated` instead of pretending to have executed.
 
-The collections that do well on this platform — curated skill libraries, spec
-repos, integration catalogues — all take this shape: many individually
-addressable artifacts, one index, one contract, one CI run.
+So why does this repository still exist? Because 341 repositories need an index,
+and an index needs a guarantee.
+
+1. **Discoverability.** 341 repos are only useful if a stranger can find the right
+   one. That is what the atlas does: `gbt-caps search`, `by_domain`, `lookup` and
+   the per-domain pages answer "which bit do I want" before "which repo do I clone".
+2. **Reviewability.** A contract change should be one diff. Here it is one page
+   plus one snapshot entry; the 341 repos are generated from it, never hand-edited.
+3. **Truth maintenance.** The value is `--check`: pages cannot drift from the data,
+   and every repo's `test_spec.py` pins its own copy to this same snapshot. A drift
+   has to survive 342 test suites before it can ship.
+
+The repos are the artifacts. This is the contract they were generated from, and the
+place to look when you do not yet know which artifact you need.
 
 ---
 
@@ -278,6 +288,8 @@ Python 3.9 – 3.13 · Linux, macOS, Windows · no runtime dependencies.
 
 ## Related
 
+- [**All 341 capability repositories**](REPOS.md) — one repo per bit, each a
+  zero-dependency package with its own contract, tests and CLI.
 - [`consent-gate`](https://github.com/gbtweilai-star/consent-gate) — the permission
   gate for the 79 bits marked `safe: false`. The agent can ask; only a human can grant.
 - [`GBTxiaotudouV8-Commander`](https://github.com/gbtweilai-star/GBTxiaotudouV8-Commander) —
