@@ -3,6 +3,31 @@
 All notable changes are documented here.
 Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) · SemVer.
 
+## [Unreleased]
+
+### Added
+
+- **`ACCEPTANCE.md` / `ACCEPTANCE.zh-CN.md`** — an acceptance run over all 341
+  bits, one subprocess each, empty payload, 90s cap. Headline: **307 pass,
+  34 real defects**. The 34 are itemised per bit rather than summarised away:
+  31 dispatch targets the registry calls implemented but which are absent from the
+  tree, 2 bits that return nothing within 300s, and 1 bit whose `TypeError` leaks
+  out labelled `user_error`.
+- **A guardrail verified in both directions.** All 12 enforced scopes are walked
+  through deny-without-grant → hand-written ledger line → allow → burn-or-reuse.
+  The test runs on a temporary ledger; the real `store/auth_grants.jsonl` is never
+  written to. Result: 12/12, `ai_can_grant = False`.
+- **`acceptance.json`** — the same readings, machine-readable, one object per bit.
+
+### Changed
+
+- The Chinese README's "why not one repository per capability" section is gone.
+  It argued against something that now exists — 341 repositories are live and
+  listed in `REPOS.md`. The section now explains what the atlas is *for* once the
+  repos exist: an index, a review surface, and the single snapshot every one of
+  the 342 test suites pins to. Leaving the old argument in place would have meant
+  the documentation contradicting the artifacts.
+
 ## [0.1.0] — 2026-10-28
 
 First release. A 235 KB capability dict became a readable, checkable atlas.

@@ -1,0 +1,4014 @@
+{
+ "generated_at": "2026-10-28T14:45:01",
+ "python": "3.14.0",
+ "elapsed_s": 111.4,
+ "limit": 90,
+ "swept": 341,
+ "tally": {
+  "defect/exception": 1,
+  "defect/import": 31,
+  "defect/timeout": 2,
+  "pass/guardrail": 32,
+  "pass/needs-input": 14,
+  "pass/needs-state": 5,
+  "pass/ok": 256
+ },
+ "defects": 34,
+ "gate": {
+  "scopes": [
+   "audio_output",
+   "browser_control",
+   "data_export",
+   "deploy_force",
+   "deploy_publish",
+   "desktop_control",
+   "device_control",
+   "external_llm",
+   "network_private",
+   "privacy_read",
+   "process_execute",
+   "remote_device"
+  ],
+  "rows": [
+   {
+    "scope": "audio_output",
+    "mode": "window",
+    "deny_without_grant": true,
+    "deny_names_scope": true,
+    "deny_has_hint": true,
+    "allow_with_grant": true,
+    "burns_after_use": true,
+    "usage_recorded": true,
+    "ok": true
+   },
+   {
+    "scope": "browser_control",
+    "mode": "window",
+    "deny_without_grant": true,
+    "deny_names_scope": true,
+    "deny_has_hint": true,
+    "allow_with_grant": true,
+    "burns_after_use": true,
+    "usage_recorded": true,
+    "ok": true
+   },
+   {
+    "scope": "data_export",
+    "mode": "one_shot",
+    "deny_without_grant": true,
+    "deny_names_scope": true,
+    "deny_has_hint": true,
+    "allow_with_grant": true,
+    "burns_after_use": true,
+    "ok": true
+   },
+   {
+    "scope": "deploy_force",
+    "mode": "one_shot",
+    "deny_without_grant": true,
+    "deny_names_scope": true,
+    "deny_has_hint": true,
+    "allow_with_grant": true,
+    "burns_after_use": true,
+    "ok": true
+   },
+   {
+    "scope": "deploy_publish",
+    "mode": "one_shot",
+    "deny_without_grant": true,
+    "deny_names_scope": true,
+    "deny_has_hint": true,
+    "allow_with_grant": true,
+    "burns_after_use": true,
+    "ok": true
+   },
+   {
+    "scope": "desktop_control",
+    "mode": "window",
+    "deny_without_grant": true,
+    "deny_names_scope": true,
+    "deny_has_hint": true,
+    "allow_with_grant": true,
+    "burns_after_use": true,
+    "usage_recorded": true,
+    "ok": true
+   },
+   {
+    "scope": "device_control",
+    "mode": "window",
+    "deny_without_grant": true,
+    "deny_names_scope": true,
+    "deny_has_hint": true,
+    "allow_with_grant": true,
+    "burns_after_use": true,
+    "usage_recorded": true,
+    "ok": true
+   },
+   {
+    "scope": "external_llm",
+    "mode": "window",
+    "deny_without_grant": true,
+    "deny_names_scope": true,
+    "deny_has_hint": true,
+    "allow_with_grant": true,
+    "burns_after_use": true,
+    "usage_recorded": true,
+    "ok": true
+   },
+   {
+    "scope": "network_private",
+    "mode": "window",
+    "deny_without_grant": true,
+    "deny_names_scope": true,
+    "deny_has_hint": true,
+    "allow_with_grant": true,
+    "burns_after_use": true,
+    "usage_recorded": true,
+    "ok": true
+   },
+   {
+    "scope": "privacy_read",
+    "mode": "window",
+    "deny_without_grant": true,
+    "deny_names_scope": true,
+    "deny_has_hint": true,
+    "allow_with_grant": true,
+    "burns_after_use": true,
+    "usage_recorded": true,
+    "ok": true
+   },
+   {
+    "scope": "process_execute",
+    "mode": "window",
+    "deny_without_grant": true,
+    "deny_names_scope": true,
+    "deny_has_hint": true,
+    "allow_with_grant": true,
+    "burns_after_use": true,
+    "usage_recorded": true,
+    "ok": true
+   },
+   {
+    "scope": "remote_device",
+    "mode": "one_shot",
+    "deny_without_grant": true,
+    "deny_names_scope": true,
+    "deny_has_hint": true,
+    "allow_with_grant": true,
+    "burns_after_use": true,
+    "ok": true
+   }
+  ],
+  "all_ok": true,
+  "ai_can_grant": false,
+  "real_ledger_untouched": true
+ },
+ "rows": [
+  {
+   "cap": "book_skill",
+   "domain": "recon",
+   "gated": true,
+   "bucket": "defect/import",
+   "detail": "cannot import name 'book_skill' from 'gbt_allinone' (C:\\Users\\ADMIN\\WorkBuddy\\Worktrees\\GBT小土豆V8\\main-bf436b33\\gbt_allinone\\__init__.py)",
+   "ms": 634.8,
+   "extra": {
+    "module": "book_skill"
+   }
+  },
+  {
+   "cap": "chart_html",
+   "domain": "data",
+   "gated": true,
+   "bucket": "defect/import",
+   "detail": "cannot import name 'chart_html' from 'gbt_allinone' (C:\\Users\\ADMIN\\WorkBuddy\\Worktrees\\GBT小土豆V8\\main-bf436b33\\gbt_allinone\\__init__.py)",
+   "ms": 645.4,
+   "extra": {
+    "module": "chart_html"
+   }
+  },
+  {
+   "cap": "cli_ify",
+   "domain": "integration",
+   "gated": true,
+   "bucket": "defect/import",
+   "detail": "cannot import name 'cli_ify' from 'gbt_allinone' (C:\\Users\\ADMIN\\WorkBuddy\\Worktrees\\GBT小土豆V8\\main-bf436b33\\gbt_allinone\\__init__.py)",
+   "ms": 643.8,
+   "extra": {
+    "module": "cli_ify"
+   }
+  },
+  {
+   "cap": "cloud_llm",
+   "domain": "llm",
+   "gated": false,
+   "bucket": "defect/import",
+   "detail": "cannot import name 'cloud_llm_cap' from 'gbt_allinone.llm' (C:\\Users\\ADMIN\\WorkBuddy\\Worktrees\\GBT小土豆V8\\main-bf436b33\\gbt_allinone\\llm\\__init__.py)",
+   "ms": 605.1,
+   "extra": {
+    "module": "cloud_llm_cap"
+   }
+  },
+  {
+   "cap": "comfy_forge",
+   "domain": "creation",
+   "gated": false,
+   "bucket": "defect/import",
+   "detail": "cannot import name 'comfy_forge' from 'gbt_allinone' (C:\\Users\\ADMIN\\WorkBuddy\\Worktrees\\GBT小土豆V8\\main-bf436b33\\gbt_allinone\\__init__.py)",
+   "ms": 618.0,
+   "extra": {
+    "module": "comfy_forge"
+   }
+  },
+  {
+   "cap": "db_plugin",
+   "domain": "data",
+   "gated": false,
+   "bucket": "defect/import",
+   "detail": "cannot import name 'db_plugin' from 'gbt_allinone.tools' (C:\\Users\\ADMIN\\WorkBuddy\\Worktrees\\GBT小土豆V8\\main-bf436b33\\gbt_allinone\\tools\\__init__.py)",
+   "ms": 668.3,
+   "extra": {
+    "module": "db_plugin"
+   }
+  },
+  {
+   "cap": "dh_realism",
+   "domain": "creation",
+   "gated": false,
+   "bucket": "defect/import",
+   "detail": "cannot import name 'dh_realism' from 'gbt_allinone.tools' (C:\\Users\\ADMIN\\WorkBuddy\\Worktrees\\GBT小土豆V8\\main-bf436b33\\gbt_allinone\\tools\\__init__.py)",
+   "ms": 997.8,
+   "extra": {
+    "module": "dh_realism"
+   }
+  },
+  {
+   "cap": "dl_forge",
+   "domain": "creation",
+   "gated": false,
+   "bucket": "defect/import",
+   "detail": "cannot import name 'dl_forge' from 'gbt_allinone.tools' (C:\\Users\\ADMIN\\WorkBuddy\\Worktrees\\GBT小土豆V8\\main-bf436b33\\gbt_allinone\\tools\\__init__.py)",
+   "ms": 679.5,
+   "extra": {
+    "module": "dl_forge"
+   }
+  },
+  {
+   "cap": "figure_gate",
+   "domain": "system",
+   "gated": true,
+   "bucket": "defect/import",
+   "detail": "cannot import name 'figure_gate' from 'gbt_allinone' (C:\\Users\\ADMIN\\WorkBuddy\\Worktrees\\GBT小土豆V8\\main-bf436b33\\gbt_allinone\\__init__.py)",
+   "ms": 645.6,
+   "extra": {
+    "module": "figure_gate"
+   }
+  },
+  {
+   "cap": "forge_mastery",
+   "domain": "creation",
+   "gated": true,
+   "bucket": "defect/import",
+   "detail": "cannot import name 'forge_mastery' from 'gbt_allinone' (C:\\Users\\ADMIN\\WorkBuddy\\Worktrees\\GBT小土豆V8\\main-bf436b33\\gbt_allinone\\__init__.py)",
+   "ms": 699.4,
+   "extra": {
+    "module": "forge_mastery"
+   }
+  },
+  {
+   "cap": "humanizer",
+   "domain": "data",
+   "gated": true,
+   "bucket": "defect/import",
+   "detail": "cannot import name 'humanizer' from 'gbt_allinone' (C:\\Users\\ADMIN\\WorkBuddy\\Worktrees\\GBT小土豆V8\\main-bf436b33\\gbt_allinone\\__init__.py)",
+   "ms": 567.4,
+   "extra": {
+    "module": "humanizer"
+   }
+  },
+  {
+   "cap": "image_scout",
+   "domain": "creation",
+   "gated": false,
+   "bucket": "defect/import",
+   "detail": "cannot import name 'image_scout' from 'gbt_allinone' (C:\\Users\\ADMIN\\WorkBuddy\\Worktrees\\GBT小土豆V8\\main-bf436b33\\gbt_allinone\\__init__.py)",
+   "ms": 536.0,
+   "extra": {
+    "module": "image_scout"
+   }
+  },
+  {
+   "cap": "install_selfcheck",
+   "domain": "security",
+   "gated": false,
+   "bucket": "defect/import",
+   "detail": "cannot import name 'install_selfcheck' from 'gbt_allinone' (C:\\Users\\ADMIN\\WorkBuddy\\Worktrees\\GBT小土豆V8\\main-bf436b33\\gbt_allinone\\__init__.py)",
+   "ms": 584.5,
+   "extra": {
+    "module": "install_selfcheck"
+   }
+  },
+  {
+   "cap": "know_map",
+   "domain": "recon",
+   "gated": true,
+   "bucket": "defect/import",
+   "detail": "cannot import name 'know_map' from 'gbt_allinone' (C:\\Users\\ADMIN\\WorkBuddy\\Worktrees\\GBT小土豆V8\\main-bf436b33\\gbt_allinone\\__init__.py)",
+   "ms": 640.2,
+   "extra": {
+    "module": "know_map"
+   }
+  },
+  {
+   "cap": "music_auto",
+   "domain": "creation",
+   "gated": true,
+   "bucket": "defect/import",
+   "detail": "cannot import name 'music_auto' from 'gbt_allinone' (C:\\Users\\ADMIN\\WorkBuddy\\Worktrees\\GBT小土豆V8\\main-bf436b33\\gbt_allinone\\__init__.py)",
+   "ms": 629.1,
+   "extra": {
+    "module": "music_auto"
+   }
+  },
+  {
+   "cap": "offense_ops",
+   "domain": "security",
+   "gated": true,
+   "bucket": "defect/import",
+   "detail": "cannot import name 'offense_ops' from 'gbt_allinone' (C:\\Users\\ADMIN\\WorkBuddy\\Worktrees\\GBT小土豆V8\\main-bf436b33\\gbt_allinone\\__init__.py)",
+   "ms": 631.3,
+   "extra": {
+    "module": "offense_ops"
+   }
+  },
+  {
+   "cap": "quant_plan",
+   "domain": "llm",
+   "gated": true,
+   "bucket": "defect/import",
+   "detail": "cannot import name 'quant_plan' from 'gbt_allinone' (C:\\Users\\ADMIN\\WorkBuddy\\Worktrees\\GBT小土豆V8\\main-bf436b33\\gbt_allinone\\__init__.py)",
+   "ms": 717.1,
+   "extra": {
+    "module": "quant_plan"
+   }
+  },
+  {
+   "cap": "scan_cap",
+   "domain": "system",
+   "gated": true,
+   "bucket": "defect/import",
+   "detail": "cannot import name 'scan_cap' from 'gbt_allinone' (C:\\Users\\ADMIN\\WorkBuddy\\Worktrees\\GBT小土豆V8\\main-bf436b33\\gbt_allinone\\__init__.py)",
+   "ms": 861.2,
+   "extra": {
+    "module": "scan_cap"
+   }
+  },
+  {
+   "cap": "self_intake",
+   "domain": "mind",
+   "gated": true,
+   "bucket": "defect/import",
+   "detail": "cannot import name 'self_intake' from 'gbt_allinone' (C:\\Users\\ADMIN\\WorkBuddy\\Worktrees\\GBT小土豆V8\\main-bf436b33\\gbt_allinone\\__init__.py)",
+   "ms": 691.5,
+   "extra": {
+    "module": "self_intake"
+   }
+  },
+  {
+   "cap": "shot_director",
+   "domain": "creation",
+   "gated": true,
+   "bucket": "defect/import",
+   "detail": "cannot import name 'shot_director' from 'gbt_allinone' (C:\\Users\\ADMIN\\WorkBuddy\\Worktrees\\GBT小土豆V8\\main-bf436b33\\gbt_allinone\\__init__.py)",
+   "ms": 733.3,
+   "extra": {
+    "module": "shot_director"
+   }
+  },
+  {
+   "cap": "showcase_ops",
+   "domain": "creation",
+   "gated": true,
+   "bucket": "defect/import",
+   "detail": "cannot import name 'showcase_ops' from 'gbt_allinone' (C:\\Users\\ADMIN\\WorkBuddy\\Worktrees\\GBT小土豆V8\\main-bf436b33\\gbt_allinone\\__init__.py)",
+   "ms": 758.4,
+   "extra": {
+    "module": "showcase_ops"
+   }
+  },
+  {
+   "cap": "skill_finder",
+   "domain": "data",
+   "gated": true,
+   "bucket": "defect/import",
+   "detail": "cannot import name 'skill_finder' from 'gbt_allinone' (C:\\Users\\ADMIN\\WorkBuddy\\Worktrees\\GBT小土豆V8\\main-bf436b33\\gbt_allinone\\__init__.py)",
+   "ms": 814.1,
+   "extra": {
+    "module": "skill_finder"
+   }
+  },
+  {
+   "cap": "skill_forge",
+   "domain": "recon",
+   "gated": true,
+   "bucket": "defect/import",
+   "detail": "cannot import name 'skill_forge' from 'gbt_allinone' (C:\\Users\\ADMIN\\WorkBuddy\\Worktrees\\GBT小土豆V8\\main-bf436b33\\gbt_allinone\\__init__.py)",
+   "ms": 773.7,
+   "extra": {
+    "module": "skill_forge"
+   }
+  },
+  {
+   "cap": "spider_ops",
+   "domain": "recon",
+   "gated": true,
+   "bucket": "defect/import",
+   "detail": "cannot import name 'spider_ops' from 'gbt_allinone' (C:\\Users\\ADMIN\\WorkBuddy\\Worktrees\\GBT小土豆V8\\main-bf436b33\\gbt_allinone\\__init__.py)",
+   "ms": 795.0,
+   "extra": {
+    "module": "spider_ops"
+   }
+  },
+  {
+   "cap": "telegram_embed",
+   "domain": "integration",
+   "gated": false,
+   "bucket": "defect/import",
+   "detail": "cannot import name 'telegram_embed' from 'gbt_allinone.tools' (C:\\Users\\ADMIN\\WorkBuddy\\Worktrees\\GBT小土豆V8\\main-bf436b33\\gbt_allinone\\tools\\__init__.py)",
+   "ms": 747.9,
+   "extra": {
+    "module": "telegram_embed"
+   }
+  },
+  {
+   "cap": "tentacle_learn",
+   "domain": "recon",
+   "gated": true,
+   "bucket": "defect/import",
+   "detail": "cannot import name 'tentacle_learn' from 'gbt_allinone' (C:\\Users\\ADMIN\\WorkBuddy\\Worktrees\\GBT小土豆V8\\main-bf436b33\\gbt_allinone\\__init__.py)",
+   "ms": 693.7,
+   "extra": {
+    "module": "tentacle_learn"
+   }
+  },
+  {
+   "cap": "theme_cap",
+   "domain": "system",
+   "gated": true,
+   "bucket": "defect/import",
+   "detail": "cannot import name 'theme_cap' from 'gbt_allinone' (C:\\Users\\ADMIN\\WorkBuddy\\Worktrees\\GBT小土豆V8\\main-bf436b33\\gbt_allinone\\__init__.py)",
+   "ms": 601.1,
+   "extra": {
+    "module": "theme_cap"
+   }
+  },
+  {
+   "cap": "topic_web",
+   "domain": "recon",
+   "gated": true,
+   "bucket": "defect/import",
+   "detail": "cannot import name 'topic_web' from 'gbt_allinone' (C:\\Users\\ADMIN\\WorkBuddy\\Worktrees\\GBT小土豆V8\\main-bf436b33\\gbt_allinone\\__init__.py)",
+   "ms": 561.3,
+   "extra": {
+    "module": "topic_web"
+   }
+  },
+  {
+   "cap": "train_ground",
+   "domain": "llm",
+   "gated": true,
+   "bucket": "defect/import",
+   "detail": "cannot import name 'train_ground' from 'gbt_allinone' (C:\\Users\\ADMIN\\WorkBuddy\\Worktrees\\GBT小土豆V8\\main-bf436b33\\gbt_allinone\\__init__.py)",
+   "ms": 559.7,
+   "extra": {
+    "module": "train_ground"
+   }
+  },
+  {
+   "cap": "whatsapp_embed",
+   "domain": "integration",
+   "gated": false,
+   "bucket": "defect/import",
+   "detail": "cannot import name 'whatsapp_embed' from 'gbt_allinone.tools' (C:\\Users\\ADMIN\\WorkBuddy\\Worktrees\\GBT小土豆V8\\main-bf436b33\\gbt_allinone\\tools\\__init__.py)",
+   "ms": 488.0,
+   "extra": {
+    "module": "whatsapp_embed"
+   }
+  },
+  {
+   "cap": "workflow_forge",
+   "domain": "engine",
+   "gated": true,
+   "bucket": "defect/import",
+   "detail": "cannot import name 'workflow_forge' from 'gbt_allinone' (C:\\Users\\ADMIN\\WorkBuddy\\Worktrees\\GBT小土豆V8\\main-bf436b33\\gbt_allinone\\__init__.py)",
+   "ms": 419.9,
+   "extra": {
+    "module": "workflow_forge"
+   }
+  },
+  {
+   "cap": "cross_scan",
+   "domain": "system",
+   "gated": false,
+   "bucket": "defect/timeout",
+   "detail": "cross_scan 在 90s 内无返回",
+   "ms": 90000,
+   "extra": {}
+  },
+  {
+   "cap": "page_scan",
+   "domain": "system",
+   "gated": false,
+   "bucket": "defect/timeout",
+   "detail": "page_scan 在 90s 内无返回",
+   "ms": 90000,
+   "extra": {}
+  },
+  {
+   "cap": "selfscan",
+   "domain": "system",
+   "gated": false,
+   "bucket": "defect/exception",
+   "detail": "scan() got an unexpected keyword argument 'full'",
+   "ms": 734.8,
+   "extra": {}
+  },
+  {
+   "cap": "a1art_skill",
+   "domain": "image_video",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 748.4,
+   "extra": {
+    "bytes": 673
+   }
+  },
+  {
+   "cap": "absorb_loop",
+   "domain": "brain",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 735.8,
+   "extra": {
+    "bytes": 385
+   }
+  },
+  {
+   "cap": "account_registry",
+   "domain": "data",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 696.1,
+   "extra": {
+    "bytes": 237
+   }
+  },
+  {
+   "cap": "action_gate",
+   "domain": "system",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 792.3,
+   "extra": {
+    "bytes": 1233
+   }
+  },
+  {
+   "cap": "actioncam",
+   "domain": "video",
+   "gated": true,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 698.3,
+   "extra": {
+    "bytes": 1107
+   }
+  },
+  {
+   "cap": "agency_tentacles",
+   "domain": "tentacle",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 708.3,
+   "extra": {
+    "bytes": 290
+   }
+  },
+  {
+   "cap": "agent_console",
+   "domain": "system",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 705.7,
+   "extra": {
+    "bytes": 87
+   }
+  },
+  {
+   "cap": "agent_control",
+   "domain": "system",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 760.3,
+   "extra": {
+    "bytes": 565
+   }
+  },
+  {
+   "cap": "agent_council",
+   "domain": "mind",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 729.0,
+   "extra": {
+    "bytes": 56
+   }
+  },
+  {
+   "cap": "agent_rig",
+   "domain": "system",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 627.4,
+   "extra": {
+    "bytes": 52
+   }
+  },
+  {
+   "cap": "alerts",
+   "domain": "system",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 774.0,
+   "extra": {
+    "bytes": 1039
+   }
+  },
+  {
+   "cap": "anatomy_figures",
+   "domain": "creation",
+   "gated": true,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 785.7,
+   "extra": {
+    "bytes": 588
+   }
+  },
+  {
+   "cap": "anim_audit",
+   "domain": "creation",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 819.0,
+   "extra": {
+    "bytes": 485
+   }
+  },
+  {
+   "cap": "anim_fix",
+   "domain": "creation",
+   "gated": true,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 778.5,
+   "extra": {
+    "bytes": 505
+   }
+  },
+  {
+   "cap": "answer_shaper",
+   "domain": "system",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 721.2,
+   "extra": {
+    "bytes": 58
+   }
+  },
+  {
+   "cap": "art_brief",
+   "domain": "creation",
+   "gated": true,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 901.1,
+   "extra": {
+    "bytes": 774
+   }
+  },
+  {
+   "cap": "art_chain",
+   "domain": "creation",
+   "gated": true,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 806.9,
+   "extra": {
+    "bytes": 354
+   }
+  },
+  {
+   "cap": "asset_index",
+   "domain": "system",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 905.4,
+   "extra": {
+    "bytes": 581
+   }
+  },
+  {
+   "cap": "asset_vault_freeze",
+   "domain": "security",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 3595.8,
+   "extra": {
+    "bytes": 912
+   }
+  },
+  {
+   "cap": "audio_extract",
+   "domain": "video",
+   "gated": true,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 762.7,
+   "extra": {
+    "bytes": 722
+   }
+  },
+  {
+   "cap": "audio_mix",
+   "domain": "video",
+   "gated": true,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 739.6,
+   "extra": {
+    "bytes": 820
+   }
+  },
+  {
+   "cap": "audit_query",
+   "domain": "data",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 774.6,
+   "extra": {
+    "bytes": 1909
+   }
+  },
+  {
+   "cap": "auth_gate_status",
+   "domain": "system",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 676.8,
+   "extra": {
+    "bytes": 2079
+   }
+  },
+  {
+   "cap": "auto_publish",
+   "domain": "social",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 679.7,
+   "extra": {
+    "bytes": 1785
+   }
+  },
+  {
+   "cap": "auto_switch",
+   "domain": "mind",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 704.9,
+   "extra": {
+    "bytes": 468
+   }
+  },
+  {
+   "cap": "automation_keys",
+   "domain": "llm",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 713.7,
+   "extra": {
+    "bytes": 4385
+   }
+  },
+  {
+   "cap": "autopilot",
+   "domain": "llm",
+   "gated": false,
+   "bucket": "pass/guardrail",
+   "detail": "缺 external_llm",
+   "ms": 713.4,
+   "extra": {
+    "scopes": [
+     "external_llm"
+    ],
+    "how_to_grant": true
+   }
+  },
+  {
+   "cap": "awesome_tools_index",
+   "domain": "tools",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 760.6,
+   "extra": {
+    "bytes": 103532
+   }
+  },
+  {
+   "cap": "belief_forge",
+   "domain": "mind",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 656.3,
+   "extra": {
+    "bytes": 64
+   }
+  },
+  {
+   "cap": "bi_distill",
+   "domain": "data",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 643.6,
+   "extra": {
+    "bytes": 840
+   }
+  },
+  {
+   "cap": "bits_kit",
+   "domain": "creation",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 677.7,
+   "extra": {
+    "bytes": 618
+   }
+  },
+  {
+   "cap": "blender",
+   "domain": "creation",
+   "gated": true,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 909.0,
+   "extra": {
+    "bytes": 355
+   }
+  },
+  {
+   "cap": "bluetooth",
+   "domain": "device",
+   "gated": false,
+   "bucket": "pass/guardrail",
+   "detail": "缺 device_control",
+   "ms": 629.2,
+   "extra": {
+    "scopes": [
+     "device_control"
+    ],
+    "how_to_grant": true
+   }
+  },
+  {
+   "cap": "brain_council",
+   "domain": "mind",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 706.4,
+   "extra": {
+    "bytes": 118
+   }
+  },
+  {
+   "cap": "brain_execute",
+   "domain": "llm",
+   "gated": false,
+   "bucket": "pass/needs-input",
+   "detail": "缺少 kind 或 parallel",
+   "ms": 700.5,
+   "extra": {
+    "code": ""
+   }
+  },
+  {
+   "cap": "brain_health",
+   "domain": "llm",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 1502.5,
+   "extra": {
+    "bytes": 368
+   }
+  },
+  {
+   "cap": "brain_route",
+   "domain": "llm",
+   "gated": false,
+   "bucket": "pass/needs-input",
+   "detail": "需要 intent：任务意图描述",
+   "ms": 738.9,
+   "extra": {
+    "code": ""
+   }
+  },
+  {
+   "cap": "brain_unify",
+   "domain": "llm",
+   "gated": false,
+   "bucket": "pass/needs-input",
+   "detail": "需要 goal（意图）或 kind（指定能力）",
+   "ms": 679.2,
+   "extra": {
+    "code": ""
+   }
+  },
+  {
+   "cap": "brain_vault",
+   "domain": "mind",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 818.1,
+   "extra": {
+    "bytes": 6104
+   }
+  },
+  {
+   "cap": "brain_verify",
+   "domain": "llm",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 939.1,
+   "extra": {
+    "bytes": 126
+   }
+  },
+  {
+   "cap": "brand_outro",
+   "domain": "creation",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 727.9,
+   "extra": {
+    "bytes": 372
+   }
+  },
+  {
+   "cap": "browser",
+   "domain": "automation",
+   "gated": false,
+   "bucket": "pass/needs-input",
+   "detail": "缺少 url",
+   "ms": 1269.8,
+   "extra": {
+    "code": ""
+   }
+  },
+  {
+   "cap": "bt_control",
+   "domain": "device",
+   "gated": false,
+   "bucket": "pass/guardrail",
+   "detail": "缺 device_control",
+   "ms": 664.9,
+   "extra": {
+    "scopes": [
+     "device_control"
+    ],
+    "how_to_grant": true
+   }
+  },
+  {
+   "cap": "cad_distill",
+   "domain": "creation",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 660.8,
+   "extra": {
+    "bytes": 814
+   }
+  },
+  {
+   "cap": "cadgen",
+   "domain": "creation",
+   "gated": true,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 791.7,
+   "extra": {
+    "bytes": 547
+   }
+  },
+  {
+   "cap": "cap_tags",
+   "domain": "system",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 747.5,
+   "extra": {
+    "bytes": 140
+   }
+  },
+  {
+   "cap": "capability_net",
+   "domain": "tools",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 683.4,
+   "extra": {
+    "bytes": 618
+   }
+  },
+  {
+   "cap": "caps_called_audit",
+   "domain": "system",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 3345.0,
+   "extra": {
+    "bytes": 81244
+   }
+  },
+  {
+   "cap": "case_mine",
+   "domain": "recon",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 674.1,
+   "extra": {
+    "bytes": 363
+   }
+  },
+  {
+   "cap": "claude_code",
+   "domain": "llm",
+   "gated": true,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 654.5,
+   "extra": {
+    "bytes": 458
+   }
+  },
+  {
+   "cap": "cli_chat",
+   "domain": "integration",
+   "gated": true,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 7528.2,
+   "extra": {
+    "bytes": 1643
+   }
+  },
+  {
+   "cap": "cloud_pc",
+   "domain": "infra",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 678.8,
+   "extra": {
+    "bytes": 1687
+   }
+  },
+  {
+   "cap": "cloud_plugin",
+   "domain": "infra",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 634.6,
+   "extra": {
+    "bytes": 337
+   }
+  },
+  {
+   "cap": "code_art",
+   "domain": "creation",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 600.3,
+   "extra": {
+    "bytes": 421
+   }
+  },
+  {
+   "cap": "code_audit",
+   "domain": "security",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 658.1,
+   "extra": {
+    "bytes": 23627
+   }
+  },
+  {
+   "cap": "code_patch",
+   "domain": "tools",
+   "gated": true,
+   "bucket": "pass/needs-input",
+   "detail": "find 不能为空（空白替换只会误伤）",
+   "ms": 613.4,
+   "extra": {
+    "code": "empty_find"
+   }
+  },
+  {
+   "cap": "codebuddy",
+   "domain": "llm",
+   "gated": true,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 658.3,
+   "extra": {
+    "bytes": 592
+   }
+  },
+  {
+   "cap": "codex_chat",
+   "domain": "llm",
+   "gated": false,
+   "bucket": "pass/guardrail",
+   "detail": "缺 process_execute, external_llm",
+   "ms": 649.0,
+   "extra": {
+    "scopes": [
+     "process_execute",
+     "external_llm"
+    ],
+    "how_to_grant": true
+   }
+  },
+  {
+   "cap": "codex_interrupt",
+   "domain": "llm",
+   "gated": false,
+   "bucket": "pass/guardrail",
+   "detail": "缺 process_execute",
+   "ms": 680.5,
+   "extra": {
+    "scopes": [
+     "process_execute"
+    ],
+    "how_to_grant": true
+   }
+  },
+  {
+   "cap": "codex_models",
+   "domain": "llm",
+   "gated": false,
+   "bucket": "pass/guardrail",
+   "detail": "缺 external_llm",
+   "ms": 644.3,
+   "extra": {
+    "scopes": [
+     "external_llm"
+    ],
+    "how_to_grant": true
+   }
+  },
+  {
+   "cap": "codex_status",
+   "domain": "llm",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 715.4,
+   "extra": {
+    "bytes": 164
+   }
+  },
+  {
+   "cap": "codex_thread_new",
+   "domain": "llm",
+   "gated": false,
+   "bucket": "pass/guardrail",
+   "detail": "缺 process_execute",
+   "ms": 655.7,
+   "extra": {
+    "scopes": [
+     "process_execute"
+    ],
+    "how_to_grant": true
+   }
+  },
+  {
+   "cap": "codex_tools",
+   "domain": "llm",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 673.3,
+   "extra": {
+    "bytes": 192
+   }
+  },
+  {
+   "cap": "codex_turn_send",
+   "domain": "llm",
+   "gated": false,
+   "bucket": "pass/guardrail",
+   "detail": "缺 process_execute, external_llm",
+   "ms": 638.1,
+   "extra": {
+    "scopes": [
+     "process_execute",
+     "external_llm"
+    ],
+    "how_to_grant": true
+   }
+  },
+  {
+   "cap": "collab_gateway",
+   "domain": "collab",
+   "gated": true,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 663.5,
+   "extra": {
+    "bytes": 40
+   }
+  },
+  {
+   "cap": "comfy_cloud",
+   "domain": "creation",
+   "gated": true,
+   "bucket": "pass/guardrail",
+   "detail": "缺 process_execute",
+   "ms": 616.2,
+   "extra": {
+    "scopes": [
+     "process_execute"
+    ],
+    "how_to_grant": true
+   }
+  },
+  {
+   "cap": "comfy_native",
+   "domain": "creation",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 7023.6,
+   "extra": {
+    "bytes": 727
+   }
+  },
+  {
+   "cap": "comfyui",
+   "domain": "creation",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 2839.9,
+   "extra": {
+    "bytes": 118
+   }
+  },
+  {
+   "cap": "command_chain",
+   "domain": "mind",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 600.1,
+   "extra": {
+    "bytes": 285
+   }
+  },
+  {
+   "cap": "console_hub",
+   "domain": "system",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 595.4,
+   "extra": {
+    "bytes": 4889
+   }
+  },
+  {
+   "cap": "console_pages",
+   "domain": "creation",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 5480.9,
+   "extra": {
+    "bytes": 975
+   }
+  },
+  {
+   "cap": "context_vault",
+   "domain": "system",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 638.9,
+   "extra": {
+    "bytes": 487
+   }
+  },
+  {
+   "cap": "control_loop",
+   "domain": "desktop",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 599.2,
+   "extra": {
+    "bytes": 782
+   }
+  },
+  {
+   "cap": "count_words",
+   "domain": "data",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 593.8,
+   "extra": {
+    "bytes": 24
+   }
+  },
+  {
+   "cap": "coverage_auditor",
+   "domain": "system",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 585.9,
+   "extra": {
+    "bytes": 1199
+   }
+  },
+  {
+   "cap": "coze_mail",
+   "domain": "comms",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 600.9,
+   "extra": {
+    "bytes": 319
+   }
+  },
+  {
+   "cap": "create",
+   "domain": "creation",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 631.6,
+   "extra": {
+    "bytes": 549
+   }
+  },
+  {
+   "cap": "creation_camp",
+   "domain": "creation",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 624.4,
+   "extra": {
+    "bytes": 333
+   }
+  },
+  {
+   "cap": "credential_steal",
+   "domain": "security",
+   "gated": true,
+   "bucket": "pass/guardrail",
+   "detail": "缺 privacy_read",
+   "ms": 601.8,
+   "extra": {
+    "scopes": [
+     "privacy_read"
+    ],
+    "how_to_grant": true
+   }
+  },
+  {
+   "cap": "data_hijack",
+   "domain": "security",
+   "gated": true,
+   "bucket": "pass/guardrail",
+   "detail": "缺 privacy_read",
+   "ms": 617.7,
+   "extra": {
+    "scopes": [
+     "privacy_read"
+    ],
+    "how_to_grant": true
+   }
+  },
+  {
+   "cap": "datakit",
+   "domain": "data",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 669.2,
+   "extra": {
+    "bytes": 328
+   }
+  },
+  {
+   "cap": "db_probe",
+   "domain": "data",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 863.8,
+   "extra": {
+    "bytes": 2424
+   }
+  },
+  {
+   "cap": "delivery_gate",
+   "domain": "system",
+   "gated": true,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 1338.1,
+   "extra": {
+    "bytes": 182
+   }
+  },
+  {
+   "cap": "deploy_queue",
+   "domain": "pipeline",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 883.9,
+   "extra": {
+    "bytes": 54
+   }
+  },
+  {
+   "cap": "design_atlas",
+   "domain": "creation",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 1221.1,
+   "extra": {
+    "bytes": 387
+   }
+  },
+  {
+   "cap": "desktop_commander",
+   "domain": "tentacle",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 1171.8,
+   "extra": {
+    "bytes": 352
+   }
+  },
+  {
+   "cap": "desktop_distill",
+   "domain": "tentacle",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 1038.3,
+   "extra": {
+    "bytes": 1196
+   }
+  },
+  {
+   "cap": "detail_habit",
+   "domain": "system",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 708.8,
+   "extra": {
+    "bytes": 808
+   }
+  },
+  {
+   "cap": "device_takeover",
+   "domain": "security",
+   "gated": true,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 3542.6,
+   "extra": {
+    "bytes": 12848
+   }
+  },
+  {
+   "cap": "devour_fusion",
+   "domain": "devour",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 986.3,
+   "extra": {
+    "bytes": 4400
+   }
+  },
+  {
+   "cap": "devour_github",
+   "domain": "devour",
+   "gated": false,
+   "bucket": "pass/guardrail",
+   "detail": "缺 data_export",
+   "ms": 720.1,
+   "extra": {
+    "scopes": [
+     "data_export"
+    ],
+    "how_to_grant": true
+   }
+  },
+  {
+   "cap": "devour_pulse",
+   "domain": "devour",
+   "gated": false,
+   "bucket": "pass/guardrail",
+   "detail": "缺 data_export, external_llm",
+   "ms": 653.1,
+   "extra": {
+    "scopes": [
+     "data_export",
+     "external_llm"
+    ],
+    "how_to_grant": true
+   }
+  },
+  {
+   "cap": "devour_reflect",
+   "domain": "devour",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 791.0,
+   "extra": {
+    "bytes": 372
+   }
+  },
+  {
+   "cap": "devour_scan",
+   "domain": "devour",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 768.6,
+   "extra": {
+    "bytes": 463
+   }
+  },
+  {
+   "cap": "dh_asset_gate",
+   "domain": "creation",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 1021.0,
+   "extra": {
+    "bytes": 499
+   }
+  },
+  {
+   "cap": "dh_brain",
+   "domain": "creation",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 1246.1,
+   "extra": {
+    "bytes": 22707
+   }
+  },
+  {
+   "cap": "dh_pose",
+   "domain": "creation",
+   "gated": true,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 1218.8,
+   "extra": {
+    "bytes": 238
+   }
+  },
+  {
+   "cap": "diagram_distill",
+   "domain": "creation",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 988.5,
+   "extra": {
+    "bytes": 1000
+   }
+  },
+  {
+   "cap": "digital_human",
+   "domain": "video",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 578.4,
+   "extra": {
+    "bytes": 1198
+   }
+  },
+  {
+   "cap": "director_mood",
+   "domain": "mind",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 677.1,
+   "extra": {
+    "bytes": 244
+   }
+  },
+  {
+   "cap": "doc_intake",
+   "domain": "mind",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 667.9,
+   "extra": {
+    "bytes": 263
+   }
+  },
+  {
+   "cap": "drama",
+   "domain": "creation",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 660.1,
+   "extra": {
+    "bytes": 527
+   }
+  },
+  {
+   "cap": "dream_replay",
+   "domain": "brain",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 621.7,
+   "extra": {
+    "bytes": 132
+   }
+  },
+  {
+   "cap": "duty_board",
+   "domain": "llm",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 787.8,
+   "extra": {
+    "bytes": 5663
+   }
+  },
+  {
+   "cap": "echo",
+   "domain": "data",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 683.7,
+   "extra": {
+    "bytes": 12
+   }
+  },
+  {
+   "cap": "edit_pipeline",
+   "domain": "video",
+   "gated": true,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 854.1,
+   "extra": {
+    "bytes": 626
+   }
+  },
+  {
+   "cap": "eigenflux",
+   "domain": "social",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 777.8,
+   "extra": {
+    "bytes": 592
+   }
+  },
+  {
+   "cap": "emotion_projection",
+   "domain": "creation",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 707.6,
+   "extra": {
+    "bytes": 549
+   }
+  },
+  {
+   "cap": "energy_pool",
+   "domain": "system",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 728.2,
+   "extra": {
+    "bytes": 2840
+   }
+  },
+  {
+   "cap": "energy_scheduler",
+   "domain": "llm",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 746.2,
+   "extra": {
+    "bytes": 69
+   }
+  },
+  {
+   "cap": "event_ledger",
+   "domain": "security",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 686.7,
+   "extra": {
+    "bytes": 74
+   }
+  },
+  {
+   "cap": "express_direct",
+   "domain": "tentacle",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 719.1,
+   "extra": {
+    "bytes": 89
+   }
+  },
+  {
+   "cap": "fact_gate",
+   "domain": "llm",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 703.1,
+   "extra": {
+    "bytes": 30
+   }
+  },
+  {
+   "cap": "feishu_embed",
+   "domain": "integration",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 745.4,
+   "extra": {
+    "bytes": 554
+   }
+  },
+  {
+   "cap": "file_hygiene",
+   "domain": "system",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 7941.5,
+   "extra": {
+    "bytes": 491
+   }
+  },
+  {
+   "cap": "film_intel",
+   "domain": "recon",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 653.5,
+   "extra": {
+    "bytes": 2023
+   }
+  },
+  {
+   "cap": "filmkit",
+   "domain": "creation",
+   "gated": true,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 714.9,
+   "extra": {
+    "bytes": 549
+   }
+  },
+  {
+   "cap": "flow_canvas",
+   "domain": "creation",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 712.4,
+   "extra": {
+    "bytes": 55
+   }
+  },
+  {
+   "cap": "freebuff_term",
+   "domain": "tools",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 710.2,
+   "extra": {
+    "bytes": 868
+   }
+  },
+  {
+   "cap": "freellmapi",
+   "domain": "llm",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 2743.7,
+   "extra": {
+    "bytes": 380
+   }
+  },
+  {
+   "cap": "gate_visibility",
+   "domain": "framework",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 733.0,
+   "extra": {
+    "bytes": 844
+   }
+  },
+  {
+   "cap": "genoffice",
+   "domain": "creation",
+   "gated": true,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 626.1,
+   "extra": {
+    "bytes": 585
+   }
+  },
+  {
+   "cap": "genoffice_bridge",
+   "domain": "llm",
+   "gated": true,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 792.1,
+   "extra": {
+    "bytes": 1998
+   }
+  },
+  {
+   "cap": "ghost_guard",
+   "domain": "pipeline",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 2352.3,
+   "extra": {
+    "bytes": 159
+   }
+  },
+  {
+   "cap": "git_read",
+   "domain": "tools",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 843.9,
+   "extra": {
+    "bytes": 844
+   }
+  },
+  {
+   "cap": "git_write",
+   "domain": "tools",
+   "gated": true,
+   "bucket": "pass/needs-input",
+   "detail": "git_write 不认 op=（只认 stage/add/commit）",
+   "ms": 674.8,
+   "extra": {
+    "code": "unknown_op"
+   }
+  },
+  {
+   "cap": "god_view",
+   "domain": "system",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 915.6,
+   "extra": {
+    "bytes": 478
+   }
+  },
+  {
+   "cap": "gods_eye",
+   "domain": "system",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 2098.5,
+   "extra": {
+    "bytes": 4530
+   }
+  },
+  {
+   "cap": "growth_hooks",
+   "domain": "system",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 2420.9,
+   "extra": {
+    "bytes": 637
+   }
+  },
+  {
+   "cap": "gs_h3",
+   "domain": "creation",
+   "gated": true,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 646.3,
+   "extra": {
+    "bytes": 661
+   }
+  },
+  {
+   "cap": "h3_video_gen",
+   "domain": "video",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 600.1,
+   "extra": {
+    "bytes": 16752
+   }
+  },
+  {
+   "cap": "handoff",
+   "domain": "system",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 547.8,
+   "extra": {
+    "bytes": 2056
+   }
+  },
+  {
+   "cap": "health",
+   "domain": "system",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 624.1,
+   "extra": {
+    "bytes": 92
+   }
+  },
+  {
+   "cap": "hf_voice",
+   "domain": "voice",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 530.9,
+   "extra": {
+    "bytes": 800
+   }
+  },
+  {
+   "cap": "hook_enforcer",
+   "domain": "security",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 543.5,
+   "extra": {
+    "bytes": 314
+   }
+  },
+  {
+   "cap": "hook_registry",
+   "domain": "system",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 521.8,
+   "extra": {
+    "bytes": 9904
+   }
+  },
+  {
+   "cap": "impact_check",
+   "domain": "system",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 602.9,
+   "extra": {
+    "bytes": 93
+   }
+  },
+  {
+   "cap": "intake_kit",
+   "domain": "creation",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 632.4,
+   "extra": {
+    "bytes": 3369
+   }
+  },
+  {
+   "cap": "inventory",
+   "domain": "system",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 642.5,
+   "extra": {
+    "bytes": 2263
+   }
+  },
+  {
+   "cap": "key_gateway",
+   "domain": "llm",
+   "gated": true,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 657.6,
+   "extra": {
+    "bytes": 430
+   }
+  },
+  {
+   "cap": "keylogger",
+   "domain": "security",
+   "gated": true,
+   "bucket": "pass/guardrail",
+   "detail": "缺 privacy_read",
+   "ms": 603.0,
+   "extra": {
+    "scopes": [
+     "privacy_read"
+    ],
+    "how_to_grant": true
+   }
+  },
+  {
+   "cap": "ledger_note",
+   "domain": "system",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 640.7,
+   "extra": {
+    "bytes": 644
+   }
+  },
+  {
+   "cap": "libtv_skill",
+   "domain": "video",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 653.3,
+   "extra": {
+    "bytes": 536
+   }
+  },
+  {
+   "cap": "libtv_workflow",
+   "domain": "video",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 636.8,
+   "extra": {
+    "bytes": 294
+   }
+  },
+  {
+   "cap": "life",
+   "domain": "life",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 696.9,
+   "extra": {
+    "bytes": 418
+   }
+  },
+  {
+   "cap": "llm_chat",
+   "domain": "llm",
+   "gated": false,
+   "bucket": "pass/guardrail",
+   "detail": "缺 external_llm",
+   "ms": 609.2,
+   "extra": {
+    "scopes": [
+     "external_llm"
+    ],
+    "how_to_grant": true
+   }
+  },
+  {
+   "cap": "llm_redteam",
+   "domain": "security",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 638.4,
+   "extra": {
+    "bytes": 1975
+   }
+  },
+  {
+   "cap": "llm_status",
+   "domain": "llm",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 704.4,
+   "extra": {
+    "bytes": 624
+   }
+  },
+  {
+   "cap": "llm_watch",
+   "domain": "llm",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 646.5,
+   "extra": {
+    "bytes": 146
+   }
+  },
+  {
+   "cap": "lobehub",
+   "domain": "creation",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 2783.3,
+   "extra": {
+    "bytes": 311
+   }
+  },
+  {
+   "cap": "local_brain",
+   "domain": "mind",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 651.1,
+   "extra": {
+    "bytes": 235
+   }
+  },
+  {
+   "cap": "long_run_supervisor",
+   "domain": "tentacle",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 584.7,
+   "extra": {
+    "bytes": 43
+   }
+  },
+  {
+   "cap": "look_grade",
+   "domain": "video",
+   "gated": true,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 602.2,
+   "extra": {
+    "bytes": 508
+   }
+  },
+  {
+   "cap": "lr_status",
+   "domain": "longrun",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 576.1,
+   "extra": {
+    "bytes": 91
+   }
+  },
+  {
+   "cap": "lr_submit",
+   "domain": "longrun",
+   "gated": false,
+   "bucket": "pass/needs-input",
+   "detail": "需要 description",
+   "ms": 594.5,
+   "extra": {
+    "code": ""
+   }
+  },
+  {
+   "cap": "lr_tick",
+   "domain": "longrun",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 625.3,
+   "extra": {
+    "bytes": 89
+   }
+  },
+  {
+   "cap": "machine_distill",
+   "domain": "creation",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 593.8,
+   "extra": {
+    "bytes": 1147
+   }
+  },
+  {
+   "cap": "machine_film",
+   "domain": "creation",
+   "gated": true,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 661.3,
+   "extra": {
+    "bytes": 877
+   }
+  },
+  {
+   "cap": "mcp_call",
+   "domain": "tentacle",
+   "gated": false,
+   "bucket": "pass/guardrail",
+   "detail": "缺 process_execute",
+   "ms": 541.7,
+   "extra": {
+    "scopes": [
+     "process_execute"
+    ],
+    "how_to_grant": true
+   }
+  },
+  {
+   "cap": "mcp_connect",
+   "domain": "tentacle",
+   "gated": false,
+   "bucket": "pass/guardrail",
+   "detail": "缺 process_execute",
+   "ms": 532.5,
+   "extra": {
+    "scopes": [
+     "process_execute"
+    ],
+    "how_to_grant": true
+   }
+  },
+  {
+   "cap": "mcp_tools",
+   "domain": "tentacle",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 566.6,
+   "extra": {
+    "bytes": 116
+   }
+  },
+  {
+   "cap": "media_license",
+   "domain": "video",
+   "gated": true,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 589.4,
+   "extra": {
+    "bytes": 431
+   }
+  },
+  {
+   "cap": "media_pipeline",
+   "domain": "video",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 564.1,
+   "extra": {
+    "bytes": 115
+   }
+  },
+  {
+   "cap": "media_publish",
+   "domain": "video",
+   "gated": true,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 597.1,
+   "extra": {
+    "bytes": 426
+   }
+  },
+  {
+   "cap": "media_run",
+   "domain": "video",
+   "gated": true,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 674.7,
+   "extra": {
+    "bytes": 966
+   }
+  },
+  {
+   "cap": "media_stamp",
+   "domain": "video",
+   "gated": true,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 641.5,
+   "extra": {
+    "bytes": 294
+   }
+  },
+  {
+   "cap": "memory_bank",
+   "domain": "mind",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 584.1,
+   "extra": {
+    "bytes": 53
+   }
+  },
+  {
+   "cap": "memory_manager",
+   "domain": "mind",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 1008.1,
+   "extra": {
+    "bytes": 215
+   }
+  },
+  {
+   "cap": "meta_cognition",
+   "domain": "mind",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 574.5,
+   "extra": {
+    "bytes": 878
+   }
+  },
+  {
+   "cap": "mind",
+   "domain": "mind",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 692.6,
+   "extra": {
+    "bytes": 495
+   }
+  },
+  {
+   "cap": "mirror_ascend",
+   "domain": "pipeline",
+   "gated": false,
+   "bucket": "pass/guardrail",
+   "detail": "缺 deploy_publish",
+   "ms": 564.9,
+   "extra": {
+    "scopes": [
+     "deploy_publish"
+    ],
+    "how_to_grant": true
+   }
+  },
+  {
+   "cap": "mirror_parity",
+   "domain": "pipeline",
+   "gated": false,
+   "bucket": "pass/needs-state",
+   "detail": "排练计划不存在: default",
+   "ms": 654.3,
+   "extra": {
+    "code": ""
+   }
+  },
+  {
+   "cap": "mirror_plan",
+   "domain": "pipeline",
+   "gated": false,
+   "bucket": "pass/needs-state",
+   "detail": "排练计划不存在: default",
+   "ms": 617.4,
+   "extra": {
+    "code": ""
+   }
+  },
+  {
+   "cap": "mirror_rehearse",
+   "domain": "pipeline",
+   "gated": false,
+   "bucket": "pass/guardrail",
+   "detail": "缺 process_execute",
+   "ms": 557.9,
+   "extra": {
+    "scopes": [
+     "process_execute"
+    ],
+    "how_to_grant": true
+   }
+  },
+  {
+   "cap": "mirror_release",
+   "domain": "pipeline",
+   "gated": false,
+   "bucket": "pass/guardrail",
+   "detail": "缺 deploy_publish, process_execute",
+   "ms": 546.3,
+   "extra": {
+    "scopes": [
+     "deploy_publish",
+     "process_execute"
+    ],
+    "how_to_grant": true
+   }
+  },
+  {
+   "cap": "mirror_rewind",
+   "domain": "pipeline",
+   "gated": false,
+   "bucket": "pass/guardrail",
+   "detail": "缺 deploy_publish",
+   "ms": 590.1,
+   "extra": {
+    "scopes": [
+     "deploy_publish"
+    ],
+    "how_to_grant": true
+   }
+  },
+  {
+   "cap": "mirror_scan",
+   "domain": "pipeline",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 653.4,
+   "extra": {
+    "bytes": 312
+   }
+  },
+  {
+   "cap": "mirror_shape",
+   "domain": "pipeline",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 596.9,
+   "extra": {
+    "bytes": 25
+   }
+  },
+  {
+   "cap": "mirror_simulate",
+   "domain": "pipeline",
+   "gated": false,
+   "bucket": "pass/needs-state",
+   "detail": "排练计划不存在: default",
+   "ms": 770.1,
+   "extra": {
+    "code": ""
+   }
+  },
+  {
+   "cap": "mirror_status",
+   "domain": "pipeline",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 666.7,
+   "extra": {
+    "bytes": 283
+   }
+  },
+  {
+   "cap": "model_key_pool",
+   "domain": "llm",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 613.1,
+   "extra": {
+    "bytes": 393
+   }
+  },
+  {
+   "cap": "motion_kit",
+   "domain": "creation",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 679.3,
+   "extra": {
+    "bytes": 533
+   }
+  },
+  {
+   "cap": "multimodal_port",
+   "domain": "llm",
+   "gated": true,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 657.3,
+   "extra": {
+    "bytes": 2373
+   }
+  },
+  {
+   "cap": "music_intel",
+   "domain": "recon",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 606.1,
+   "extra": {
+    "bytes": 2041
+   }
+  },
+  {
+   "cap": "music_publishing",
+   "domain": "creation",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 614.7,
+   "extra": {
+    "bytes": 2024
+   }
+  },
+  {
+   "cap": "n8n_wf",
+   "domain": "automation",
+   "gated": true,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 4908.0,
+   "extra": {
+    "bytes": 156
+   }
+  },
+  {
+   "cap": "notion_bridge",
+   "domain": "integration",
+   "gated": true,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 640.1,
+   "extra": {
+    "bytes": 164
+   }
+  },
+  {
+   "cap": "observer_anchor",
+   "domain": "mind",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 620.2,
+   "extra": {
+    "bytes": 348
+   }
+  },
+  {
+   "cap": "obsidian_vault",
+   "domain": "mind",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 663.5,
+   "extra": {
+    "bytes": 592
+   }
+  },
+  {
+   "cap": "offload_distill",
+   "domain": "llm",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 825.9,
+   "extra": {
+    "bytes": 813
+   }
+  },
+  {
+   "cap": "omarchy_bridge",
+   "domain": "tentacle",
+   "gated": true,
+   "bucket": "pass/guardrail",
+   "detail": "缺 process_execute",
+   "ms": 601.6,
+   "extra": {
+    "scopes": [
+     "process_execute"
+    ],
+    "how_to_grant": true
+   }
+  },
+  {
+   "cap": "omission_detector",
+   "domain": "security",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 671.9,
+   "extra": {
+    "bytes": 314
+   }
+  },
+  {
+   "cap": "omni_arm",
+   "domain": "creation",
+   "gated": true,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 594.0,
+   "extra": {
+    "bytes": 470
+   }
+  },
+  {
+   "cap": "omni_plug",
+   "domain": "llm",
+   "gated": true,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 608.3,
+   "extra": {
+    "bytes": 521
+   }
+  },
+  {
+   "cap": "omni_web",
+   "domain": "tentacle",
+   "gated": true,
+   "bucket": "pass/guardrail",
+   "detail": "缺 data_export",
+   "ms": 601.2,
+   "extra": {
+    "scopes": [
+     "data_export"
+    ],
+    "how_to_grant": true
+   }
+  },
+  {
+   "cap": "onboarding_gate",
+   "domain": "security",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 645.8,
+   "extra": {
+    "bytes": 268
+   }
+  },
+  {
+   "cap": "one_key_deploy",
+   "domain": "pipeline",
+   "gated": false,
+   "bucket": "pass/guardrail",
+   "detail": "缺 deploy_publish, process_execute",
+   "ms": 604.1,
+   "extra": {
+    "scopes": [
+     "deploy_publish",
+     "process_execute"
+    ],
+    "how_to_grant": true
+   }
+  },
+  {
+   "cap": "one_shot",
+   "domain": "creation",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 605.4,
+   "extra": {
+    "bytes": 4071
+   }
+  },
+  {
+   "cap": "orchestration_kernel",
+   "domain": "system",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 970.3,
+   "extra": {
+    "bytes": 900
+   }
+  },
+  {
+   "cap": "osint_scan",
+   "domain": "recon",
+   "gated": false,
+   "bucket": "pass/needs-input",
+   "detail": "缺少 target（要扫的域名或 IP）。例：{\"target\": \"example.com\"}",
+   "ms": 585.7,
+   "extra": {
+    "code": ""
+   }
+  },
+  {
+   "cap": "paywallbuster",
+   "domain": "security",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 649.0,
+   "extra": {
+    "bytes": 89
+   }
+  },
+  {
+   "cap": "penetrating_cross_scan",
+   "domain": "security",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 627.3,
+   "extra": {
+    "bytes": 314
+   }
+  },
+  {
+   "cap": "pentest",
+   "domain": "security",
+   "gated": true,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 647.7,
+   "extra": {
+    "bytes": 71
+   }
+  },
+  {
+   "cap": "pentest_distill",
+   "domain": "security",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 605.9,
+   "extra": {
+    "bytes": 1113
+   }
+  },
+  {
+   "cap": "persona_kernel",
+   "domain": "mind",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 602.0,
+   "extra": {
+    "bytes": 3177
+   }
+  },
+  {
+   "cap": "pipeline_rollback",
+   "domain": "pipeline",
+   "gated": false,
+   "bucket": "pass/guardrail",
+   "detail": "缺 deploy_publish",
+   "ms": 667.4,
+   "extra": {
+    "scopes": [
+     "deploy_publish"
+    ],
+    "how_to_grant": true
+   }
+  },
+  {
+   "cap": "pipeline_status",
+   "domain": "pipeline",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 710.2,
+   "extra": {
+    "bytes": 129
+   }
+  },
+  {
+   "cap": "pipeline_submit",
+   "domain": "pipeline",
+   "gated": false,
+   "bucket": "pass/guardrail",
+   "detail": "缺 deploy_publish",
+   "ms": 621.0,
+   "extra": {
+    "scopes": [
+     "deploy_publish"
+    ],
+    "how_to_grant": true
+   }
+  },
+  {
+   "cap": "pipeline_versions",
+   "domain": "pipeline",
+   "gated": false,
+   "bucket": "pass/needs-input",
+   "detail": "缺少 name：请给出产物名",
+   "ms": 747.7,
+   "extra": {
+    "code": ""
+   }
+  },
+  {
+   "cap": "platform_profile",
+   "domain": "project",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 744.6,
+   "extra": {
+    "bytes": 197
+   }
+  },
+  {
+   "cap": "pod_link",
+   "domain": "creation",
+   "gated": true,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 725.7,
+   "extra": {
+    "bytes": 112
+   }
+  },
+  {
+   "cap": "policy_delta",
+   "domain": "security",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 734.7,
+   "extra": {
+    "bytes": 699
+   }
+  },
+  {
+   "cap": "policy_gate",
+   "domain": "llm",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 718.3,
+   "extra": {
+    "bytes": 32
+   }
+  },
+  {
+   "cap": "proactive_report",
+   "domain": "mind",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 781.3,
+   "extra": {
+    "bytes": 3806
+   }
+  },
+  {
+   "cap": "project_context",
+   "domain": "project",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 837.6,
+   "extra": {
+    "bytes": 3254
+   }
+  },
+  {
+   "cap": "project_drift",
+   "domain": "system",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 787.0,
+   "extra": {
+    "bytes": 192
+   }
+  },
+  {
+   "cap": "projection_card",
+   "domain": "tools",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 748.3,
+   "extra": {
+    "bytes": 2432
+   }
+  },
+  {
+   "cap": "prompt_bridge",
+   "domain": "llm",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 703.3,
+   "extra": {
+    "bytes": 78
+   }
+  },
+  {
+   "cap": "pulse_direct",
+   "domain": "tools",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 825.8,
+   "extra": {
+    "bytes": 251
+   }
+  },
+  {
+   "cap": "quant",
+   "domain": "finance",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 772.4,
+   "extra": {
+    "bytes": 853
+   }
+  },
+  {
+   "cap": "quant_backtest",
+   "domain": "finance",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 813.3,
+   "extra": {
+    "bytes": 1157
+   }
+  },
+  {
+   "cap": "quant_params",
+   "domain": "finance",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 668.4,
+   "extra": {
+    "bytes": 643
+   }
+  },
+  {
+   "cap": "quant_strategy",
+   "domain": "finance",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 764.7,
+   "extra": {
+    "bytes": 1288
+   }
+  },
+  {
+   "cap": "rea_reverse",
+   "domain": "recon",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 732.5,
+   "extra": {
+    "bytes": 1045
+   }
+  },
+  {
+   "cap": "recon_distill",
+   "domain": "recon",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 713.7,
+   "extra": {
+    "bytes": 791
+   }
+  },
+  {
+   "cap": "record_grid",
+   "domain": "data",
+   "gated": false,
+   "bucket": "pass/needs-input",
+   "detail": "需要 text（内联文本）或 path（框架内相对路径）",
+   "ms": 759.1,
+   "extra": {
+    "code": ""
+   }
+  },
+  {
+   "cap": "redteam_recon",
+   "domain": "security",
+   "gated": true,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 869.6,
+   "extra": {
+    "bytes": 1896
+   }
+  },
+  {
+   "cap": "remote_confinement",
+   "domain": "tentacle",
+   "gated": true,
+   "bucket": "pass/guardrail",
+   "detail": "缺 process_execute",
+   "ms": 706.1,
+   "extra": {
+    "scopes": [
+     "process_execute"
+    ],
+    "how_to_grant": true
+   }
+  },
+  {
+   "cap": "remote_domain",
+   "domain": "security",
+   "gated": true,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 765.5,
+   "extra": {
+    "bytes": 192
+   }
+  },
+  {
+   "cap": "render_evolution",
+   "domain": "creation",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 751.0,
+   "extra": {
+    "bytes": 695
+   }
+  },
+  {
+   "cap": "replan_loop",
+   "domain": "llm",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 838.0,
+   "extra": {
+    "bytes": 152
+   }
+  },
+  {
+   "cap": "repo_publish",
+   "domain": "tools",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 1085.4,
+   "extra": {
+    "bytes": 418
+   }
+  },
+  {
+   "cap": "review_gate",
+   "domain": "security",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 706.4,
+   "extra": {
+    "bytes": 611
+   }
+  },
+  {
+   "cap": "rig_audit",
+   "domain": "creation",
+   "gated": true,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 778.0,
+   "extra": {
+    "bytes": 506
+   }
+  },
+  {
+   "cap": "rig_fix",
+   "domain": "creation",
+   "gated": true,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 834.6,
+   "extra": {
+    "bytes": 522
+   }
+  },
+  {
+   "cap": "ring_context",
+   "domain": "llm",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 947.2,
+   "extra": {
+    "bytes": 216
+   }
+  },
+  {
+   "cap": "room_space",
+   "domain": "system",
+   "gated": true,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 897.8,
+   "extra": {
+    "bytes": 176
+   }
+  },
+  {
+   "cap": "root_fix",
+   "domain": "system",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 783.2,
+   "extra": {
+    "bytes": 190
+   }
+  },
+  {
+   "cap": "scene_anchor",
+   "domain": "creation",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 811.8,
+   "extra": {
+    "bytes": 772
+   }
+  },
+  {
+   "cap": "sched_define",
+   "domain": "engine",
+   "gated": false,
+   "bucket": "pass/needs-input",
+   "detail": "需要 name",
+   "ms": 733.3,
+   "extra": {
+    "code": ""
+   }
+  },
+  {
+   "cap": "sched_status",
+   "domain": "engine",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 858.3,
+   "extra": {
+    "bytes": 29
+   }
+  },
+  {
+   "cap": "sched_tick",
+   "domain": "engine",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 885.5,
+   "extra": {
+    "bytes": 23
+   }
+  },
+  {
+   "cap": "scrapling",
+   "domain": "recon",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 876.5,
+   "extra": {
+    "bytes": 229
+   }
+  },
+  {
+   "cap": "screen_sniff",
+   "domain": "security",
+   "gated": true,
+   "bucket": "pass/guardrail",
+   "detail": "缺 privacy_read",
+   "ms": 864.5,
+   "extra": {
+    "scopes": [
+     "privacy_read"
+    ],
+    "how_to_grant": true
+   }
+  },
+  {
+   "cap": "sec_chain",
+   "domain": "security",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 48200.0,
+   "extra": {
+    "bytes": 600
+   }
+  },
+  {
+   "cap": "sec_defenses",
+   "domain": "security",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 7338.8,
+   "extra": {
+    "bytes": 540
+   }
+  },
+  {
+   "cap": "sec_llm",
+   "domain": "security",
+   "gated": false,
+   "bucket": "pass/guardrail",
+   "detail": "缺 external_llm",
+   "ms": 789.7,
+   "extra": {
+    "scopes": [
+     "external_llm"
+    ],
+    "how_to_grant": true
+   }
+  },
+  {
+   "cap": "sec_scan",
+   "domain": "security",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 48016.9,
+   "extra": {
+    "bytes": 8591
+   }
+  },
+  {
+   "cap": "sec_surface",
+   "domain": "security",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 4173.2,
+   "extra": {
+    "bytes": 1970
+   }
+  },
+  {
+   "cap": "sec_sweeper",
+   "domain": "security",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 744.6,
+   "extra": {
+    "bytes": 3701
+   }
+  },
+  {
+   "cap": "shared_resources",
+   "domain": "system",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 759.9,
+   "extra": {
+    "bytes": 266
+   }
+  },
+  {
+   "cap": "signature_guard",
+   "domain": "system",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 895.5,
+   "extra": {
+    "bytes": 164
+   }
+  },
+  {
+   "cap": "skill_watch",
+   "domain": "system",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 884.1,
+   "extra": {
+    "bytes": 1599
+   }
+  },
+  {
+   "cap": "slim_profile",
+   "domain": "system",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 911.9,
+   "extra": {
+    "bytes": 616
+   }
+  },
+  {
+   "cap": "social_eng",
+   "domain": "security",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 1290.1,
+   "extra": {
+    "bytes": 39
+   }
+  },
+  {
+   "cap": "spend_guard",
+   "domain": "system",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 1379.5,
+   "extra": {
+    "bytes": 199
+   }
+  },
+  {
+   "cap": "stigmergy",
+   "domain": "collab",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 1003.2,
+   "extra": {
+    "bytes": 1566
+   }
+  },
+  {
+   "cap": "surface_bind",
+   "domain": "system",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 963.3,
+   "extra": {
+    "bytes": 972
+   }
+  },
+  {
+   "cap": "svc_inspect",
+   "domain": "pipeline",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 1753.7,
+   "extra": {
+    "bytes": 2319
+   }
+  },
+  {
+   "cap": "tactics_advise",
+   "domain": "longrun",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 939.4,
+   "extra": {
+    "bytes": 203
+   }
+  },
+  {
+   "cap": "task_graph",
+   "domain": "llm",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 799.5,
+   "extra": {
+    "bytes": 152
+   }
+  },
+  {
+   "cap": "task_manager",
+   "domain": "system",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 7750.4,
+   "extra": {
+    "bytes": 5442
+   }
+  },
+  {
+   "cap": "tentacle",
+   "domain": "tentacle",
+   "gated": false,
+   "bucket": "pass/needs-input",
+   "detail": "缺少 action：给触手能力名（tentacle_manifest）、给 intent 走自动路由、或 op=caps 看全部能力",
+   "ms": 954.3,
+   "extra": {
+    "code": ""
+   }
+  },
+  {
+   "cap": "tentacle_arm",
+   "domain": "system",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 876.5,
+   "extra": {
+    "bytes": 25473
+   }
+  },
+  {
+   "cap": "tentacle_bind",
+   "domain": "system",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 1413.0,
+   "extra": {
+    "bytes": 73
+   }
+  },
+  {
+   "cap": "tentacle_cognition",
+   "domain": "system",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 815.3,
+   "extra": {
+    "bytes": 548
+   }
+  },
+  {
+   "cap": "tentacle_comfy_bridge",
+   "domain": "creation",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 4837.3,
+   "extra": {
+    "bytes": 434
+   }
+  },
+  {
+   "cap": "tentacle_equip",
+   "domain": "tentacle",
+   "gated": true,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 1099.3,
+   "extra": {
+    "bytes": 354
+   }
+  },
+  {
+   "cap": "tentacle_manifest",
+   "domain": "tentacle",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 947.2,
+   "extra": {
+    "bytes": 5798
+   }
+  },
+  {
+   "cap": "tentacle_pipeline",
+   "domain": "tentacle",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 622.7,
+   "extra": {
+    "bytes": 805
+   }
+  },
+  {
+   "cap": "tentacle_scale",
+   "domain": "tentacle",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 662.4,
+   "extra": {
+    "bytes": 567
+   }
+  },
+  {
+   "cap": "tentacle_status",
+   "domain": "tentacle",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 1086.3,
+   "extra": {
+    "bytes": 1990
+   }
+  },
+  {
+   "cap": "thebrain_bridge",
+   "domain": "integration",
+   "gated": true,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 3171.9,
+   "extra": {
+    "bytes": 1702
+   }
+  },
+  {
+   "cap": "think_loop",
+   "domain": "llm",
+   "gated": false,
+   "bucket": "pass/guardrail",
+   "detail": "缺 external_llm",
+   "ms": 599.2,
+   "extra": {
+    "scopes": [
+     "external_llm"
+    ],
+    "how_to_grant": true
+   }
+  },
+  {
+   "cap": "tool_bay",
+   "domain": "tentacle",
+   "gated": true,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 2385.8,
+   "extra": {
+    "bytes": 1600
+   }
+  },
+  {
+   "cap": "topic_watch",
+   "domain": "recon",
+   "gated": false,
+   "bucket": "pass/needs-input",
+   "detail": "缺少 need：请给一句需求（如「帮我盯着 AI 行业动态」）",
+   "ms": 560.7,
+   "extra": {
+    "code": ""
+   }
+  },
+  {
+   "cap": "trace_store",
+   "domain": "system",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 575.1,
+   "extra": {
+    "bytes": 320
+   }
+  },
+  {
+   "cap": "train_recipe",
+   "domain": "llm",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 4431.2,
+   "extra": {
+    "bytes": 423
+   }
+  },
+  {
+   "cap": "transfer",
+   "domain": "engine",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 531.8,
+   "extra": {
+    "bytes": 53
+   }
+  },
+  {
+   "cap": "transformer",
+   "domain": "llm",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 478.1,
+   "extra": {
+    "bytes": 278
+   }
+  },
+  {
+   "cap": "trend_watch",
+   "domain": "recon",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 826.1,
+   "extra": {
+    "bytes": 867
+   }
+  },
+  {
+   "cap": "tripo",
+   "domain": "creation",
+   "gated": true,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 5247.1,
+   "extra": {
+    "bytes": 57
+   }
+  },
+  {
+   "cap": "truth_scan",
+   "domain": "system",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 507.3,
+   "extra": {
+    "bytes": 264
+   }
+  },
+  {
+   "cap": "ui_kit",
+   "domain": "creation",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 524.3,
+   "extra": {
+    "bytes": 319
+   }
+  },
+  {
+   "cap": "ui_render",
+   "domain": "creation",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 500.2,
+   "extra": {
+    "bytes": 552
+   }
+  },
+  {
+   "cap": "ul_tars_desktop",
+   "domain": "desktop",
+   "gated": true,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 584.2,
+   "extra": {
+    "bytes": 332
+   }
+  },
+  {
+   "cap": "ux_doctrine",
+   "domain": "system",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 518.1,
+   "extra": {
+    "bytes": 1721
+   }
+  },
+  {
+   "cap": "verification_watch",
+   "domain": "recon",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 509.0,
+   "extra": {
+    "bytes": 470
+   }
+  },
+  {
+   "cap": "video_intel",
+   "domain": "recon",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 502.0,
+   "extra": {
+    "bytes": 2047
+   }
+  },
+  {
+   "cap": "vision",
+   "domain": "vision",
+   "gated": false,
+   "bucket": "pass/guardrail",
+   "detail": "缺 privacy_read",
+   "ms": 492.1,
+   "extra": {
+    "scopes": [
+     "privacy_read"
+    ],
+    "how_to_grant": true
+   }
+  },
+  {
+   "cap": "vision_grounding",
+   "domain": "vision",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 509.1,
+   "extra": {
+    "bytes": 756
+   }
+  },
+  {
+   "cap": "vision_loop",
+   "domain": "vision",
+   "gated": true,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 507.9,
+   "extra": {
+    "bytes": 515
+   }
+  },
+  {
+   "cap": "vision_print",
+   "domain": "vision",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 591.5,
+   "extra": {
+    "bytes": 750
+   }
+  },
+  {
+   "cap": "vlx_flow",
+   "domain": "vision",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 515.0,
+   "extra": {
+    "bytes": 690
+   }
+  },
+  {
+   "cap": "voice",
+   "domain": "voice",
+   "gated": false,
+   "bucket": "pass/guardrail",
+   "detail": "缺 audio_output",
+   "ms": 481.5,
+   "extra": {
+    "scopes": [
+     "audio_output"
+    ],
+    "how_to_grant": true
+   }
+  },
+  {
+   "cap": "voice_orchestra",
+   "domain": "voice",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 1139.8,
+   "extra": {
+    "bytes": 394
+   }
+  },
+  {
+   "cap": "voice_studio",
+   "domain": "voice",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 2537.7,
+   "extra": {
+    "bytes": 169
+   }
+  },
+  {
+   "cap": "warm_switch",
+   "domain": "llm",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 1056.0,
+   "extra": {
+    "bytes": 179
+   }
+  },
+  {
+   "cap": "wave_probe",
+   "domain": "system",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 550.0,
+   "extra": {
+    "bytes": 294
+   }
+  },
+  {
+   "cap": "welcome",
+   "domain": "system",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 479.2,
+   "extra": {
+    "bytes": 244
+   }
+  },
+  {
+   "cap": "wf_cache_clear",
+   "domain": "engine",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 486.6,
+   "extra": {
+    "bytes": 344
+   }
+  },
+  {
+   "cap": "wf_define",
+   "domain": "engine",
+   "gated": false,
+   "bucket": "pass/needs-input",
+   "detail": "需要 name 与非空 nodes 列表",
+   "ms": 525.5,
+   "extra": {
+    "code": ""
+   }
+  },
+  {
+   "cap": "wf_resume",
+   "domain": "engine",
+   "gated": false,
+   "bucket": "pass/needs-state",
+   "detail": "运行记录不存在: ",
+   "ms": 531.0,
+   "extra": {
+    "code": ""
+   }
+  },
+  {
+   "cap": "wf_run",
+   "domain": "engine",
+   "gated": false,
+   "bucket": "pass/needs-state",
+   "detail": "工作流不存在: （先 wf_define）",
+   "ms": 607.3,
+   "extra": {
+    "code": ""
+   }
+  },
+  {
+   "cap": "wf_status",
+   "domain": "engine",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 527.1,
+   "extra": {
+    "bytes": 12
+   }
+  },
+  {
+   "cap": "wiki_graph",
+   "domain": "mind",
+   "gated": false,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 488.1,
+   "extra": {
+    "bytes": 338
+   }
+  },
+  {
+   "cap": "zimage_rewash",
+   "domain": "creation",
+   "gated": true,
+   "bucket": "pass/ok",
+   "detail": "",
+   "ms": 413.1,
+   "extra": {
+    "bytes": 646
+   }
+  }
+ ]
+}

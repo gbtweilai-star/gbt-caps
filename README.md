@@ -33,6 +33,14 @@ source   caps_registry.py  sha256 1c85007b73b9
   ...
 ```
 
+> **Acceptance run (2026-10-28, Python 3.14.0):** all 341 bits were called one by one —
+> **307 passed** (256 answered to an empty payload · 32 were stopped by a guardrail ·
+> 14 rejected for a missing input · 5 need prior state), **34 real defects**
+> (31 dispatch targets missing from the tree · 2 timeouts · 1 leaked exception).
+> The guardrail was verified in both directions: all 12 scopes deny without a grant,
+> allow with one, and burn one-shot grants on use. Full report with per-bit detail and
+> the reproduction command: [**ACCEPTANCE.md**](ACCEPTANCE.md).
+
 ---
 
 ## What this is
@@ -288,6 +296,8 @@ Python 3.9 – 3.13 · Linux, macOS, Windows · no runtime dependencies.
 
 ## Related
 
+- [**Acceptance report**](ACCEPTANCE.md) — every bit executed once, with all 34 real
+  defects itemised and a two-sided verification of the guardrail.
 - [**All 341 capability repositories**](REPOS.md) — one repo per bit, each a
   zero-dependency package with its own contract, tests and CLI.
 - [`consent-gate`](https://github.com/gbtweilai-star/consent-gate) — the permission
