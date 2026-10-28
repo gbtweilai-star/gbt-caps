@@ -1,0 +1,59 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gbt-caps"
+version = "0.1.0"
+description = "A 341-bit capability atlas: one spec file per capability, machine-checkable, zero dependencies."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "gbtweilai-star" }]
+keywords = [
+    "capability-registry",
+    "ai-agents",
+    "spec",
+    "catalog",
+    "documentation",
+    "registry",
+    "atlas",
+    "agent-tools",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Documentation",
+    "Topic :: Software Development :: Documentation",
+    "Typing :: Typed",
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[project.scripts]
+gbt-caps = "gbt_caps.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/gbtweilai-star/gbt-caps"
+Repository = "https://github.com/gbtweilai-star/gbt-caps"
+Issues = "https://github.com/gbtweilai-star/gbt-caps/issues"
+Changelog = "https://github.com/gbtweilai-star/gbt-caps/blob/main/CHANGELOG.md"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+gbt_caps = ["py.typed", "data/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
